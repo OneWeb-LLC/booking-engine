@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0 — 2026-08-23
+
+- Replaced the single Golden Path with four operating tiers: Standard, Assisted, Expedited, and Recovery.
+- Standardized the universal service-business journey as Campaign → Capture → Convert → Close.
+- Made the Convert phase configurable for one or multiple appointments and other client-specific milestones.
+- Defined Expedited movement as any valid jump forward in the funnel, independent of method or channel.
+- Added required-versus-skippable milestone rules, state rechecks, active-objective locking, and obsolete-work suppression.
+- Renamed Sales Representative to Sales Officer while preserving client-specific aliases.
+- Added path-tier dispositions and management metrics.
+
 ## 0.2.1 — 2026-08-23
 
 - Renamed the canonical repository to `SalesflowOne/booking-engine`.
@@ -9,8 +19,8 @@
 ## 0.2.0 — 2026-08-23
 
 - Reframed the system as the operating framework for the Salesflow Booking Engine.
-- Added the Customer Journey and Golden Path.
-- Added universal functional roles, including Booking Agent and Sales Representative.
+- Added the original Customer Journey and Golden Path model.
+- Added universal functional roles, including Booking Agent and the role now named Sales Officer.
 - Added handoff standards and ownership rules.
 - Added activation, booking, appointment, conversion, payment, onboarding, and reactivation recoveries.
 - Expanded the client configuration and Salesflow workflow specifications.

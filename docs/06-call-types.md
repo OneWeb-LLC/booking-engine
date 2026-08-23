@@ -19,7 +19,7 @@ Call purpose, trigger, priority, and execution method must remain separate field
 - new referral;
 - new chat or form inquiry.
 
-Preferred execution: Zero Friction when eligible, followed by Call Queue recovery.
+Preferred execution: Zero Friction when eligible, followed by the Recovery associated with the lead's latest state and failed objective.
 
 ### 2. Engagement Response
 
@@ -59,7 +59,16 @@ Preferred execution: Zero Friction when eligible, followed by Call Queue recover
 - expired estimate;
 - approved reactivation segment.
 
+## Path classification
+
+Every connected call must also identify the resulting path movement:
+
+- Standard continued;
+- Assisted entered or continued;
+- Expedited entered;
+- Recovery entered;
+- valid exit.
+
 ## Configurable windows
 
 Do not hard-code 30 days universally. Each client must define its active follow-up window and reactivation threshold.
-

@@ -1,6 +1,8 @@
 # Booking Engine Recoveries
 
-Recoveries are named exception paths that return the customer to the strongest valid next step when the Golden Path breaks.
+Recoveries are named exception paths that return the customer to the strongest valid next step when a required transition fails, stalls, or becomes invalid.
+
+Recovery is Tier 4 of the operating model, but it may activate from any Journey phase and rejoin the Standard, Assisted, or Expedited Path.
 
 ## Recovery families
 
@@ -28,4 +30,3 @@ Every recovery must define:
 - reporting metrics.
 
 Recoveries describe **why** work exists. Appointments, Live Calls, Assigned Tasks, and Call Queue describe **how and when** users execute it.
-

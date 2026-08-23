@@ -14,15 +14,17 @@ Owns campaigns, attribution, workflow enrollment, queue supply, cadence, suppres
 
 Owns inbound response, Zero Friction, minimum intake, qualification, routing, warm transfers, booking, missed-call recovery, activation recovery, and booking recovery.
 
-The Booking Agent is the front-line operator and momentum manager of the Booking Engine—not merely a scheduler.
+The Booking Agent is the front-line operator and momentum manager of the Booking Engine—not merely a scheduler. A client may authorize the Booking Agent to complete defined Expedited closes. Anything outside that authority must be handed to the appropriate Sales Officer.
 
-## Sales Representative
+## Sales Officer
 
 **Mission:** Convert qualified interest into a customer commitment.
 
 Owns consultation, discovery, fit, presentation, objection handling, conversion, and active sales follow-up.
 
-Client aliases may include Admissions Officer, Enrollment Advisor, Comfort Advisor, Account Executive, or Closer.
+Client aliases may include Sales Representative, Admissions Officer, Enrollment Advisor, Comfort Advisor, Account Executive, or Closer.
+
+The Sales Officer title represents conversion authority, not people-management rank. The client configuration must define what a Booking Agent may close, what requires a Sales Officer, and which handoffs require another specialist.
 
 ## Onboarding Coordinator
 
@@ -56,4 +58,3 @@ Every active customer transition must have either:
 - one explicitly eligible pooled team.
 
 If ownership cannot be determined, the system must escalate rather than silently leaving the work unowned.
-

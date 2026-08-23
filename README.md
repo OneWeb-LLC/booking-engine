@@ -1,13 +1,20 @@
 # Salesflow Booking Engine
 
-The **Salesflow Booking Engine** is the operating framework that converts customer interest into committed, onboarded, and supported customers—and recovers when the ideal journey breaks.
+The **Salesflow Booking Engine** is the universal operating framework for service businesses that moves customer interest through **Campaign → Capture → Convert → Close**, then hands the customer to onboarding and support.
 
 The framework has four connected layers:
 
 1. **Customer Journey** — where the customer should go.
 2. **Roles and Handoffs** — who owns each transition.
 3. **Work Priorities** — what users work on next.
-4. **Recoveries** — what happens when the Golden Path fails.
+4. **Recoveries** — what happens when a required transition fails.
+
+The Customer Journey uses four operating tiers:
+
+1. **Standard Path** — follow the client's configured journey.
+2. **Assisted Path** — provide additional help to complete the expected transition.
+3. **Expedited Path** — advance a ready lead beyond one or more expected steps.
+4. **Recovery Path** — restore progress after a transition fails, stalls, or becomes invalid.
 
 Its invariant operating order is:
 
@@ -21,7 +28,7 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 ## Start here
 
 - [Booking Engine operating framework](framework/booking-engine.md)
-- [Customer Journey and Golden Path](framework/customer-journey.md)
+- [Customer Journey and Path Tiers](framework/customer-journey.md)
 - [Roles and ownership](framework/roles-and-ownership.md)
 - [Handoffs](framework/handoffs.md)
 - [Recovery system](recoveries/README.md)
@@ -64,4 +71,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.2.1` establishes **Salesflow Booking Engine** as the canonical product and framework name. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
+Version `0.3.0` establishes the universal four-phase service-business journey and four path tiers. Client-specific implementations should configure milestones, authority, and required steps without rewriting the core rules.

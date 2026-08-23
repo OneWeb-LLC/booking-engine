@@ -6,7 +6,7 @@ A handoff transfers both context and responsibility. Sending a message or changi
 
 ## Standard handoff chain
 
-Campaign Manager → Booking Agent → Sales Representative → Onboarding Coordinator → Support Representative
+Campaign Manager → Booking Agent → Sales Officer → Onboarding Coordinator → Support Representative
 
 ## Required handoff packet
 
@@ -38,4 +38,3 @@ For warm transfers, the transferring person remains until the recipient answers,
 ## Asynchronous handoff
 
 For tasks and onboarding transitions, ownership, due time, context, and acknowledgment must be recorded. An unaccepted handoff must remain visible to management.
-

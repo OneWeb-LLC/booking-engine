@@ -8,9 +8,12 @@ Trigger: approved new inbound lead.
 2. Create or update opportunity.
 3. Assign according to client routing policy.
 4. Send immediate acknowledgment.
-5. Attempt Zero Friction when eligible.
-6. On failure, create Booking Recovery Call Queue entry and Call Brief.
-7. On connection, await disposition and continue accordingly.
+5. Allow the configured booking synchronization window.
+6. Determine the current Journey phase, path tier, and strongest valid objective.
+7. Attempt Zero Friction when eligible.
+8. Recheck state immediately before the agent bridge and cancel any obsolete objective.
+9. On failure, preserve valid progress and enter the Recovery associated with the failed objective.
+10. On connection, continue through Standard, Assisted, or Expedited according to readiness.
 
 ## WF-02 Missed Inbound Call
 
@@ -23,9 +26,9 @@ Trigger: approved new inbound lead.
 
 1. Send confirmation.
 2. Create human confirmation call only when required by client configuration.
-3. Suppress generic outbound calls during the protected appointment window.
+3. Suppress redundant booking calls during the protected appointment window, but allow a configured appointment-activation or Expedited objective.
 4. On completion, trigger disposition-based next steps.
-5. On no-show, enter No-Show Recovery.
+5. On no-show, enter Appointment Recovery using the no-show branch.
 
 ## WF-04 Assigned Callback
 
@@ -47,7 +50,20 @@ Trigger: call disposition.
 3. Enroll within allowed capacity.
 4. Prefer queue pacing over flooding the team.
 
-## WF-07 Conversion Recovery
+## WF-07 Path Orchestration
+
+Trigger: a lead event, state change, workflow enrollment, or pending human connection.
+
+1. Read the latest Journey phase, milestone, path tier, appointment, ownership, and conversion state.
+2. Validate all required and conditional milestone rules.
+3. Select the strongest valid objective.
+4. Maintain exactly one active outbound call objective.
+5. Route ordinary progress through Standard, additional help through Assisted, valid jumps through Expedited, and failed transitions through Recovery.
+6. Before execution or an agent bridge, recheck the state and replace obsolete work.
+7. After advancement, suppress superseded calls, tasks, workflows, reminders, and appointments.
+8. Record the prior state, new state, path movement, reason, and owner.
+
+## WF-08 Conversion Recovery
 
 Trigger: completed sales conversation without commitment.
 
@@ -56,7 +72,7 @@ Trigger: completed sales conversation without commitment.
 3. Create an appointment for exact-time commitments, an Assigned Task for personal work, or a Call Queue entry for pooled follow-up.
 4. Exit on conversion, disqualification, DND, or transition to reactivation.
 
-## WF-08 Payment Recovery
+## WF-09 Payment Recovery
 
 Trigger: payment initiated but incomplete, declined, abandoned, or overdue.
 
@@ -66,7 +82,7 @@ Trigger: payment initiated but incomplete, declined, abandoned, or overdue.
 4. Resume onboarding after successful payment.
 5. Escalate unresolved discrepancies according to client configuration.
 
-## WF-09 Onboarding Recovery
+## WF-10 Onboarding Recovery
 
 Trigger: committed customer has incomplete documents, setup, registration, or activation.
 
@@ -87,3 +103,6 @@ Trigger: committed customer has incomplete documents, setup, registration, or ac
 - no duplicate Manual Action;
 - no terminal disposition;
 - attempt limit not exceeded.
+- latest Journey state confirmed;
+- exactly one active outbound call objective;
+- required milestones and Expedited authority validated.

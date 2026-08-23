@@ -24,7 +24,7 @@ The custom page and course should be generated or updated from this repository w
 - recovery and reactivation workflows;
 - reporting dashboards.
 - Customer Journey stages and ownership;
-- Golden Path and recovery workflow mappings;
+- four-phase Journey, path-tier, and recovery workflow mappings;
 - handoff records with context, owner, and acceptance state.
 
 ## Recommended custom menu
@@ -47,7 +47,7 @@ Use a short certification course for initial training:
 5. Call Queue and Call Briefs
 6. Dispositions and Documentation
 7. Client-specific scripts and compliance
-8. Golden Path and Recoveries
+8. Journey Phases, Path Tiers, and Recoveries
 9. Roles and Handoffs
 10. Practical assessment
 

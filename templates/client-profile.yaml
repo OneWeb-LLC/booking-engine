@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.2.1
+  version: 0.3.0
 
 client:
   name: ""
@@ -13,8 +13,8 @@ roles:
     display_name: Campaign Manager
   booking_agent:
     display_name: Booking Agent
-  sales_representative:
-    display_name: Sales Representative
+  sales_officer:
+    display_name: Sales Officer
   onboarding_coordinator:
     display_name: Onboarding Coordinator
   support_representative:
@@ -25,15 +25,35 @@ roles:
     display_name: Salesflow Administrator
 
 customer_journey:
-  lead_generation: {}
-  lead_activation: {}
-  contact_and_qualification: {}
-  booking: {}
-  appointment: {}
-  conversion: {}
-  payment: {}
-  onboarding: {}
-  customer_success: {}
+  phases:
+    campaign: {}
+    capture: {}
+    convert:
+      milestones: []
+    close: {}
+  onboarding_handoff: {}
+
+path_tiers:
+  standard:
+    enabled: true
+  assisted:
+    enabled: true
+  expedited:
+    enabled: true
+    allowed_destinations: []
+    buy_now_enabled: false
+  recovery:
+    enabled: true
+
+milestone_rules:
+  required: []
+  conditional: []
+  skippable: []
+
+authority:
+  booking_agent_close_actions: []
+  sales_officer_required_actions: []
+  specialist_handoffs: []
 
 work_priorities:
   - Appointments
@@ -51,7 +71,14 @@ live_calls:
   warm_transfer_enabled: true
   zero_friction_enabled: true
   wrap_up_seconds: 90
+  booking_sync_window_seconds: 90
+  state_recheck_before_bridge: true
   skill_groups: []
+
+orchestration:
+  single_active_call_objective: true
+  suppress_obsolete_work: true
+  record_path_movement: true
 
 tasks:
   due_window_minutes: 0

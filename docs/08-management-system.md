@@ -68,7 +68,17 @@
 - reactivation rate;
 - conversion and collected revenue by source, campaign, and agent.
 
+### Path performance
+
+- Standard Path completion rate;
+- Assisted Path entry and return-to-Standard rate;
+- Expedited Path entry, close, Buy Now, and warm-transfer rates;
+- Recovery entry and restoration rate;
+- time and touches from Capture to Close by path;
+- conversion rate by configured Convert milestone;
+- duplicate or obsolete work prevented;
+- invalid step-skip exceptions.
+
 ## Management principle
 
 Activity is diagnostic, not the final outcome. The system should connect effort to customer movement and revenue.
-

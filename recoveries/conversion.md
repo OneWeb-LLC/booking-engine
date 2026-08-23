@@ -13,7 +13,7 @@ Use when a qualified sales conversation occurs without commitment.
 
 ## Default owner
 
-The Sales Representative who owns the relationship, unless the client explicitly uses a pooled follow-up team.
+The Sales Officer who owns the relationship, unless the client explicitly uses a pooled follow-up team.
 
 ## Execution choice
 
@@ -23,4 +23,3 @@ The Sales Representative who owns the relationship, unless the client explicitly
 - customer returns live → Live Call.
 
 When the active sales window expires, transition eligible contacts to Reactivation rather than leaving them indefinitely active.
-

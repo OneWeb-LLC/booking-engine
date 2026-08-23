@@ -42,3 +42,4 @@ A no-show must immediately exit the appointment workflow and enter the configure
 
 Do not force unnecessary appointments. If a qualified person can complete the desired action now, preserve live momentum.
 
+An appointment may be one milestone inside a longer Convert phase. When Expedited movement makes a future appointment obsolete, cancel or resolve it according to client policy, notify all affected parties, and suppress its reminders and call instructions.

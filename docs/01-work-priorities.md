@@ -1,5 +1,7 @@
 # The Four Work Priorities
 
+Work Priority determines what a user handles next. It does not limit how far the user should advance the customer during an active interaction. Once engaged, follow the Journey Advancement Rule: continue Standard, Assist when necessary, Expedite when readiness permits, and Recover when progress breaks.
+
 ## 1. Appointments
 
 Appointments are scheduled commitments. They include meetings, consultations, demos, service appointments, and exact-time callbacks.
@@ -50,4 +52,3 @@ Agents do not choose favorites from the queue. Routing logic supplies the best e
 - **Wrap-Up:** temporarily protected for documentation.
 - **Break:** unavailable.
 - **Offline:** unavailable.
-

@@ -53,7 +53,7 @@ Queue priority should consider:
 
 ## Collision prevention
 
-A contact should generally have only one active outbound call instruction. Before enrollment, check for active appointments, live conversations, owned callbacks, open Manual Actions, DND, terminal outcomes, and duplicate workflows.
+A contact should generally have only one active outbound call instruction. Before enrollment and again before execution, check the current Journey phase and path tier, active appointments, live conversations, owned callbacks, open Manual Actions, DND, terminal outcomes, and duplicate workflows. Replace or cancel an obsolete objective rather than adding another one.
 
 ## Exit conditions
 
@@ -70,4 +70,3 @@ A contact should generally have only one active outbound call instruction. Befor
 ## Management responsibility
 
 The campaign manager owns queue supply. The system should warn before the queue reaches zero, using estimated productive hours rather than raw contact count.
-

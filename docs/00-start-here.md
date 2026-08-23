@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This framework governs the complete Customer Journey through the Salesflow Booking Engine. It defines what should happen when conversion proceeds ideally, who owns each step, what users should work on next, and how to recover when progress breaks.
+This framework governs the complete Customer Journey through the Salesflow Booking Engine for service businesses. It defines the universal phases, the available path tiers, who owns each transition, what users should work on next, and how to recover when progress breaks.
 
 The Booking Engine is not merely a calendar or call workflow. It is the coordinated system that moves a person from interest to activation and ongoing support.
 
@@ -10,11 +10,14 @@ Every user works from the same priority system while Salesflow supplies, routes,
 
 ## Framework model
 
-- **Golden Path:** the ideal conversion journey.
+- **Journey phases:** Campaign → Capture → Convert → Close.
+- **Path tiers:** Standard → Assisted → Expedited → Recovery.
 - **Roles:** functional ownership across that journey.
 - **Handoffs:** the transfer of context and responsibility.
 - **Work Priorities:** the daily execution order.
-- **Recoveries:** named exception paths when the Golden Path breaks.
+- **Recoveries:** named exception paths when a required transition breaks.
+
+The phases remain fixed. Each client configures the milestones inside them. Most client-specific depth lives inside Convert, which may contain one appointment, multiple appointments, qualification gates, demonstrations, assessments, or approvals.
 
 ## The operating promise
 
@@ -46,11 +49,11 @@ Role names may be changed by each client, but the responsibilities remain.
 - Activates, qualifies, books, routes, and protects live momentum.
 - Recovers missed calls, failed connections, and incomplete bookings.
 
-### Sales Representative
+### Sales Officer
 
 - Conducts qualified sales conversations.
 - Handles objections and advances commitment.
-- Owns conversion and active sales follow-up.
+- Owns conversion authority and active sales follow-up.
 
 ### Onboarding Coordinator
 
