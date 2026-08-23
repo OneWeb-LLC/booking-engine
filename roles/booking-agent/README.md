@@ -77,17 +77,17 @@ Before leaving a record:
 
 ## Responsibility map
 
-| Responsibility | Action standard | Salesflow instruction |
-|---|---|---|
-| Start prepared | [Start a shift](../../actions/daily/start-shift.md) | [Start in Salesflow](../../salesflow/native/daily/start-shift.md) |
-| Answer inbound demand | [Handle an inbound call](../../actions/calls/handle-inbound-call.md) | [Answer in Salesflow](../../salesflow/native/live-calls/answer-inbound-call.md) |
-| Activate fresh leads | [Activate a fresh lead](../../actions/calls/activate-lead.md) | [Handle Zero Friction](../../salesflow/native/live-calls/handle-zero-friction.md) |
-| Secure appointments | [Book an appointment](../../actions/appointments/book-appointment.md) | [Book in Salesflow](../../salesflow/native/appointments/book-appointment.md) |
-| Route ready leads | [Warm-transfer a customer](../../actions/calls/warm-transfer.md) | [Warm-transfer in Salesflow](../../salesflow/native/live-calls/warm-transfer.md) |
-| Complete personal work | [Complete an Assigned Task](../../actions/work/complete-assigned-task.md) | [Work Salesflow Tasks](../../salesflow/native/assigned-tasks/work-assigned-tasks.md) |
-| Work pooled calls | [Work pooled calls](../../actions/work/work-call-queue.md) | [Work Manual Actions](../../salesflow/native/call-queue/work-call-queue.md) |
-| Record outcomes | [Document a call](../../actions/calls/document-call.md) | [Document in Salesflow](../../salesflow/native/notes-and-dispositions/document-call.md) |
-| Restore progress | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Execute Recovery](../../salesflow/native/recoveries/execute-recovery.md) |
+| Responsibility | Salesflow instruction |
+|---|---|
+| Start prepared | [Start your shift](../../salesflow/instructions/daily/start-shift.md) |
+| Answer inbound demand | [Answer an inbound call](../../salesflow/instructions/live-calls/answer-inbound-call.md) |
+| Activate fresh leads | [Handle a Zero Friction call](../../salesflow/instructions/live-calls/handle-zero-friction.md) |
+| Secure appointments | [Book an appointment](../../salesflow/instructions/appointments/book-appointment.md) |
+| Route ready leads | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
+| Complete personal work | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
+| Work pooled calls | [Work the Call Queue](../../salesflow/instructions/call-queue/work-call-queue.md) |
+| Record outcomes | [Document a call](../../salesflow/instructions/notes-and-dispositions/document-call.md) |
+| Restore progress | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

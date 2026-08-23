@@ -30,6 +30,17 @@ Click-by-click Salesflow instructions are trustworthy only when the visible Sale
 - Store screenshots beside the instruction or in its client deployment asset folder.
 - Replace screenshots rather than accumulating obsolete versions in the employee experience.
 
+## Staff Notebook/Scribe standard
+
+- Write one procedure for one employee outcome.
+- Begin from a location the employee can reliably find.
+- Use one click, selection, or field entry per numbered step.
+- Bold the exact label visible in Salesflow.
+- State what the employee enters and how to choose the correct value.
+- Place each screenshot beside the step it proves in the published employee experience.
+- End with the visible confirmation, documentation requirement, automation expected next, and Recovery or escalation path.
+- If the interface differs, the employee stops and escalates; the maintainer corrects and re-verifies the instruction.
+
 ## Review triggers
 
 - navigation redesign;

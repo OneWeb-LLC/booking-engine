@@ -22,4 +22,4 @@ Choose the function you are performing. Roles describe authority and responsibil
 3. Assigned Tasks
 4. Call Queue
 
-The role page tells you what you own, links to the reusable [Action standard](../actions/README.md), and then links to the applicable [Salesflow instruction](../salesflow/README.md) for exact execution.
+The role page tells you what you own and links directly to the applicable [Salesflow instruction](../salesflow/README.md). The instruction is the single employee source for the operating rule and exact execution.

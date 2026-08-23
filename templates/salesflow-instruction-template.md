@@ -1,6 +1,6 @@
-# Salesflow Instruction: [Action]
+# Salesflow Instruction: [Task]
 
-- **Instruction type:** Native / Snapshot
+- **Salesflow dependency:** Core / Client configuration / Booking Engine configuration
 - **Role:**
 - **Journey phase:** Campaign / Capture / Convert / Close
 - **Path tier:** Standard / Assisted / Expedited / Recovery
@@ -26,11 +26,19 @@ Define the trigger and eligibility conditions.
 
 **Salesflow → Area → Page → Record**
 
-## Steps
+## Click-by-click walkthrough
 
-1. Use the exact visible label.
-2. Explain one action per step.
-3. State what the user should verify before continuing.
+1. Start each step with the exact visible control: **Click [label]**.
+2. State where the control appears when it may not be obvious.
+3. Explain one click or entry per numbered step.
+4. State exactly what to select, type, or verify before continuing.
+5. End with the visible confirmation that proves the step worked.
+
+## What to enter
+
+| Field | What to enter | Example or rule |
+|---|---|---|
+| [Visible field label] | [Required value] | [Client-configured example] |
 
 ## Completion standard
 
@@ -53,10 +61,14 @@ Name the Recovery, owner, and escalation path.
 - consequence;
 - correction.
 
+## Screenshots
+
+Add a numbered screenshot for each point where a nontechnical employee could reasonably become lost. Match screenshot numbers to the walkthrough steps and redact customer information.
+
 ## Client configuration
 
 List scripts, fields, calendars, permissions, or names the client must supply.
 
 ## Verification record
 
-Maintainers record the linked Action standard, source-ledger entry, Snapshot dependencies, and Salesflow account used for UI verification. Employee-facing copies must not direct users to external vendor documentation.
+Maintainers record the source-ledger entry, dependencies, Salesflow account, role, and date used for UI verification. Employee-facing copies must not direct users to external vendor documentation.

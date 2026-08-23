@@ -13,36 +13,20 @@ The custom page and course should be generated or updated from this repository w
 
 See the [knowledge-center delivery specification](knowledge-center.md) for the employee experience.
 
-## Required Salesflow components
+## Implementation discovery checklist
 
-- calendars and appointment types;
-- team users and skill groups;
-- phone numbers and routing;
-- custom fields for active call reason, priority, due time, attempt number, and work owner;
-- custom dispositions;
-- Manual Action workflows;
-- Zero Friction workflow or integration;
-- suppression and collision checks;
-- recovery and reactivation workflows;
-- reporting dashboards.
-- Customer Journey stages and ownership;
-- four-phase Journey, path-tier, and recovery workflow mappings;
-- handoff records with context, owner, and acceptance state.
+Before deploying the framework, audit the target account for:
 
-## Native versus Snapshot boundary
+- calendars, appointment types, users, permissions, and availability;
+- phone numbers, inbound routing, transfers, recording, and calling permissions;
+- tasks, Manual Actions, opportunities, pipelines, stages, statuses, and dispositions;
+- Zero Friction entry, connection, failure, and suppression behavior;
+- Recovery and reactivation behavior;
+- client scripts, compliance rules, escalation contacts, and reporting requirements.
 
-| Capability | Native Salesflow source | Snapshot responsibility |
-|---|---|---|
-| Contacts and identity | Contact record | Required field mapping and quality rules |
-| Appointments | Calendars and appointment statuses | Milestone mapping, views, reminders, and Recovery orchestration |
-| Personal work | Assigned Tasks | Role rules, views, escalation, and workflow creation |
-| Pooled calls | Manual Actions | Queue supply, Call Brief, objective locking, retries, and suppression |
-| Calls | Dialer, routing, and transfers | Zero Friction objectives, skill routing, and failure behavior |
-| Call outcomes | Dispositions | Canonical labels, workflow mapping, and reporting categories |
-| Lifecycle | Opportunities, pipelines, stages, and statuses | Campaign → Capture → Convert → Close mapping and path fields |
-| Knowledge | Custom menu and course capabilities | Booking Engine workspace, role access, wiki, and certification |
+Use core Salesflow capabilities wherever they satisfy the operating requirement. Do not create custom fields, workflows, dispositions, or navigation merely because an earlier draft proposed them.
 
-The installed component catalog belongs in the [Booking Engine Snapshot](../../snapshot/README.md). Do not describe a planned custom component as native Salesflow behavior.
+The actual installable component catalog will belong in the [Booking Engine Snapshot](../../snapshot/README.md) after the final Snapshot is built and audited. Until then, the Snapshot section remains intentionally blank.
 
 ## Recommended custom menu
 
@@ -68,4 +52,4 @@ Use a short certification course for initial training:
 9. Roles and Handoffs
 10. Practical assessment
 
-The course teaches and certifies the system. The custom page operates the system. Both must link to the same versioned Roles, Actions, and Salesflow Instructions.
+The course teaches and certifies the system. The custom page operates the system. Both must link to the same versioned Roles and Salesflow Instructions.

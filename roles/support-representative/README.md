@@ -30,13 +30,13 @@ Do not transfer a customer merely to remove the issue from your workspace. Respo
 
 ## Responsibility map
 
-| Responsibility | Action standard | Salesflow instruction |
-|---|---|---|
-| Handle inbound needs | [Handle an inbound call](../../actions/calls/handle-inbound-call.md) | [Answer in Salesflow](../../salesflow/native/live-calls/answer-inbound-call.md) |
-| Hand off accepted issues | [Warm-transfer standard](../../actions/calls/warm-transfer.md) | [Use Salesflow transfer](../../salesflow/native/live-calls/warm-transfer.md) |
-| Complete owned resolution | [Complete an Assigned Task](../../actions/work/complete-assigned-task.md) | [Work Salesflow Tasks](../../salesflow/native/assigned-tasks/work-assigned-tasks.md) |
-| Preserve service context | [Preserve meaningful context](../../actions/records/add-meaningful-note.md) | [Add a Salesflow note](../../salesflow/native/notes-and-dispositions/add-meaningful-note.md) |
-| Restore broken service | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Execute Recovery](../../salesflow/native/recoveries/execute-recovery.md) |
+| Responsibility | Salesflow instruction |
+|---|---|
+| Handle inbound needs | [Answer an inbound call](../../salesflow/instructions/live-calls/answer-inbound-call.md) |
+| Hand off accepted issues | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
+| Complete owned resolution | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
+| Preserve service context | [Add a meaningful note](../../salesflow/instructions/notes-and-dispositions/add-meaningful-note.md) |
+| Restore broken service | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

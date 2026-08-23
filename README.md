@@ -29,13 +29,14 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 
 1. **[Methodology](methodology/README.md)** — why the Booking Engine works and the universal rules.
 2. **[Roles](roles/README.md)** — who owns each responsibility and the role's authority.
-3. **[Actions](actions/README.md)** — what outcome must be accomplished, independent of software.
-4. **[Salesflow Instructions](salesflow/README.md)** — how to execute the action in Salesflow.
-5. **[Snapshot](snapshot/README.md)** — what custom configuration, fields, workflows, and navigation are installed.
-6. **[Training](training/course-outline.md)** — how employees learn and certify.
-7. **[Governance](governance/AI-MAINTENANCE.md)** — how the living wiki remains trustworthy.
+3. **[Salesflow Instructions](salesflow/README.md)** — the complete, click-by-click procedure for performing the work.
+4. **[Recoveries](recoveries/README.md)** — how failed or stalled customer transitions are restored.
+5. **[Training](training/course-outline.md)** — how employees learn and certify.
+6. **[Administration](salesflow/administration/README.md)** — how Salesflow is configured and maintained.
+7. **[Snapshot](snapshot/README.md)** — the reserved specification for the future installable configuration.
+8. **[Governance](governance/AI-MAINTENANCE.md)** — how the living wiki remains trustworthy.
 
-Employees begin with their role. Each responsibility links to a reusable action standard and the exact Salesflow instruction. Native instructions are separated from Snapshot-dependent instructions.
+Employees begin with their role and follow one direct link to the relevant Salesflow instruction. Each instruction combines the operating standard with a Staff Notebook-style walkthrough: where to go, what to click, what to enter, what to verify, and what happens next.
 
 ## Core operating loop
 
@@ -62,4 +63,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.5.0` establishes the living-wiki hierarchy, separates methodology from product instructions, and creates the versioned Snapshot namespace for native mappings, custom fields, workflows, pipelines, calendars, routing, dispositions, navigation, and dashboards.
+Version `0.6.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, and reserves Snapshot documentation until the actual Snapshot can be audited.

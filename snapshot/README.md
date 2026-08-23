@@ -1,28 +1,26 @@
 # Booking Engine Snapshot
 
-The Snapshot is the installable Salesflow configuration that implements the Booking Engine methodology for a service business.
-
-The methodology remains universal. The Snapshot is versioned implementation.
-
-## Component catalog
-
-- [Manifest](manifest.yaml)
-- [Native and Custom Fields](fields/README.md)
-- [Workflows](workflows/README.md)
-- [Pipelines](pipelines/README.md)
-- [Calendars](calendars/README.md)
-- [Phone and Routing](phone-and-routing/README.md)
-- [Dispositions](dispositions/README.md)
-- [Navigation](navigation/README.md)
-- [Dashboards](dashboards/README.md)
+This section is intentionally reserved for the installable Salesflow configuration that will implement the Booking Engine methodology.
 
 ## Status
 
-The namespace and contracts are defined in v0.5.0. Concrete exported assets, identifiers, screenshots, and installation validation will be added when the Snapshot is built.
+**Reserved — no Snapshot has been documented or approved.**
+
+Do not treat planned fields, workflows, pipelines, calendars, dispositions, routing, navigation, dashboards, or identifiers as installed components. When the final Snapshot is created, an implementation agent must audit the actual account and build this section from observed configuration.
+
+The future audit must document:
+
+- the exact exported components and identifiers;
+- core capabilities used instead of custom replacements;
+- installation order and prerequisites;
+- verification tests for entry, success, retry, failure, suppression, and exit;
+- upgrade and rollback procedures;
+- the corresponding employee instructions and screenshots;
+- the independently versioned Snapshot release.
 
 ## Design rules
 
-- Prefer native Salesflow objects before creating custom replacements.
+- Prefer core Salesflow objects before creating custom replacements.
 - Custom fields must represent durable state or required workflow input.
 - Every workflow must map to a methodology transition and named owner.
 - Every component must have an installation, verification, upgrade, and rollback note.

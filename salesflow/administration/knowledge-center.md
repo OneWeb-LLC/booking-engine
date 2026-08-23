@@ -17,17 +17,17 @@ The landing page should show:
 5. **Assigned Tasks**
 6. **Call Queue**
 7. **Recoveries**
-8. **Search Actions and Instructions**
-9. current Booking Engine and Snapshot versions
+8. **Search Instructions**
+9. current Booking Engine framework version
 
 Role permissions should hide configuration and maintainer material from ordinary users.
 
 ## Page behavior
 
 - Mobile-responsive and usable during calls.
-- Search by action, visible Salesflow label, role, phase, path tier, and Recovery.
+- Search by task, visible Salesflow label, role, phase, path tier, and Recovery.
 - Persistent breadcrumb navigation.
-- One Action or Salesflow Instruction per page.
+- One Salesflow Instruction per employee procedure.
 - Large numbered steps and short paragraphs.
 - Client-specific screenshots placed beside the corresponding step.
 - Copy buttons for approved scripts when appropriate.
@@ -36,7 +36,7 @@ Role permissions should hide configuration and maintainer material from ordinary
 
 ## Course experience
 
-Use the Salesflow course for structured onboarding, demonstrations, quizzes, certification, and update lessons. Link each lesson to the canonical Role, Action, and Salesflow Instruction used by the Knowledge Center.
+Use the Salesflow course for structured onboarding, demonstrations, quizzes, certification, and update lessons. Link each lesson to the canonical Role and Salesflow Instruction used by the Knowledge Center.
 
 ## Publishing pipeline
 

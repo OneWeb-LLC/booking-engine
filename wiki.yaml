@@ -1,6 +1,6 @@
 wiki:
   title: Salesflow Booking Engine
-  version: 0.5.0
+  version: 0.6.0
   entrypoint: SUMMARY.md
   home: README.md
   format: markdown
@@ -13,7 +13,6 @@ content:
   include:
     - methodology/**
     - roles/**
-    - actions/**
     - salesflow/**
     - snapshot/**
     - recoveries/**
@@ -25,9 +24,7 @@ content:
 audiences:
   employee:
     - roles/**
-    - actions/**
-    - salesflow/native/**
-    - salesflow/snapshot/**
+    - salesflow/instructions/**
     - training/**
   manager:
     - methodology/**

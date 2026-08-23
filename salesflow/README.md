@@ -1,25 +1,23 @@
-# Salesflow Implementation and Instructions
+# Salesflow Instructions
 
-Salesflow pages explain **how the Booking Engine is executed in the product**. They are intentionally separate from the universal methodology.
+Salesflow Instructions are the single employee source of truth for performing work inside Salesflow. They combine the required operating outcome with a Staff Notebook-style walkthrough.
 
-## Native Salesflow instructions
+## Employee instructions
 
-These instructions use standard Salesflow capabilities that may exist before the Booking Engine Snapshot is installed:
-
-- [Native instruction index](native/README.md)
-- [Operator instruction map](operator-instructions.md)
-
-Native areas include Conversations, calling, calendars, tasks, opportunities, notes, and dispositions.
-
-## Snapshot instructions
-
-These instructions depend on fields, workflows, views, navigation, or other configuration installed by the Booking Engine Snapshot:
-
-- [Snapshot instruction index](snapshot/README.md)
-- [Agent Workspace](snapshot/agent-workspace.md)
-- [Call Brief](snapshot/use-call-brief.md)
-- [Path and Objective Fields](snapshot/path-and-objective-fields.md)
-- [Snapshot Dispositions](snapshot/use-snapshot-dispositions.md)
+- [Instruction directory](instructions/README.md)
+- [Start your shift](instructions/daily/start-shift.md)
+- [Manage the Conversations inbox](instructions/conversations/manage-inbox.md)
+- [Book an appointment](instructions/appointments/book-appointment.md)
+- [Manage an appointment](instructions/appointments/manage-appointment.md)
+- [Answer an inbound call](instructions/live-calls/answer-inbound-call.md)
+- [Handle a Zero Friction call](instructions/live-calls/handle-zero-friction.md)
+- [Warm-transfer a live call](instructions/live-calls/warm-transfer.md)
+- [Work Assigned Tasks](instructions/assigned-tasks/work-assigned-tasks.md)
+- [Work the Call Queue](instructions/call-queue/work-call-queue.md)
+- [Update an opportunity](instructions/opportunities/update-opportunity.md)
+- [Document a call](instructions/notes-and-dispositions/document-call.md)
+- [Add a meaningful note](instructions/notes-and-dispositions/add-meaningful-note.md)
+- [Execute a Recovery](instructions/recoveries/execute-recovery.md)
 
 ## Administration
 
@@ -29,10 +27,9 @@ These instructions depend on fields, workflows, views, navigation, or other conf
 
 ## Boundary rule
 
-- Methodology defines why.
-- Roles define who.
-- Actions define what.
-- Salesflow instructions define how.
-- Snapshot documentation defines what is installed.
+- Methodology defines the universal system and why it works.
+- Roles define who owns the work and the limits of their authority.
+- Salesflow Instructions define the required outcome and exactly how the employee completes it.
+- Snapshot documentation will define installed configuration only after the Snapshot exists and has been audited.
 
-An instruction may link to methodology or an action for context, but it must not redefine the universal operating rule.
+Employees should never need to choose between an abstract action page and a procedure. The instruction must be complete enough to perform the work without opening another operational page.

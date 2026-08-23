@@ -34,12 +34,12 @@ An opportunity is not onboarded merely because Sales marked it Won. Required pay
 
 ## Responsibility map
 
-| Responsibility | Action standard | Salesflow instruction |
-|---|---|---|
-| Complete owned onboarding work | [Complete an Assigned Task](../../actions/work/complete-assigned-task.md) | [Work Salesflow Tasks](../../salesflow/native/assigned-tasks/work-assigned-tasks.md) |
-| Maintain customer state | [Update an opportunity](../../actions/records/update-opportunity.md) | [Update in Salesflow](../../salesflow/native/opportunities/update-opportunity.md) |
-| Preserve onboarding context | [Preserve meaningful context](../../actions/records/add-meaningful-note.md) | [Add a Salesflow note](../../salesflow/native/notes-and-dispositions/add-meaningful-note.md) |
-| Restore payment or activation | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Execute Recovery](../../salesflow/native/recoveries/execute-recovery.md) |
+| Responsibility | Salesflow instruction |
+|---|---|
+| Complete owned onboarding work | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
+| Maintain customer state | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
+| Preserve onboarding context | [Add a meaningful note](../../salesflow/instructions/notes-and-dispositions/add-meaningful-note.md) |
+| Restore payment or activation | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

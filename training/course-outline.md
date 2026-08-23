@@ -58,7 +58,7 @@ Each role track includes:
 
 1. role mission and authority;
 2. start-of-shift demonstration;
-3. required Actions and click-by-click Salesflow Instructions;
+3. required click-by-click Salesflow Instructions;
 4. scenario decisions across all four path tiers;
 5. documentation exercise;
 6. escalation exercise;

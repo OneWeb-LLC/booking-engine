@@ -40,9 +40,9 @@ The invariant may be changed only by an explicit governance decision, not as a s
 - Does every workflow have entry, retry, failure, exit, and escalation paths?
 - Does the agent know exactly what to do?
 - Can management identify whether a failure belongs to the agent, campaign, staffing, or system?
-- Does every employee instruction identify its Action, exact navigation, completion, automation, exception, and verification state?
+- Does every employee instruction contain its outcome, exact navigation, click-by-click walkthrough, completion, automation, exception, and verification state?
 - Does the employee page avoid sending users to an external vendor for instructions?
-- Does the change preserve the Methodology → Roles → Actions → Salesflow Instructions → Snapshot boundary?
+- Does the change preserve the Methodology → Roles → Salesflow Instructions → Snapshot boundary?
 
 ## Versioning
 

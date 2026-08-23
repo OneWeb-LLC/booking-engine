@@ -1,20 +1,14 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.5.0
+  version: 0.6.0
 
 snapshot:
-  required: true
+  mode: core_salesflow
+  status: not_built
   installed_version: null
   installed_at: null
   verified_at: null
-  native_component_map: {}
-  custom_field_ids: {}
-  workflow_ids: {}
-  pipeline_ids: {}
-  calendar_ids: {}
-  disposition_ids: {}
-  navigation_ids: {}
-  dashboard_ids: {}
+  component_map: {}
 
 client:
   name: ""

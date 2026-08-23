@@ -21,7 +21,7 @@ Define the customer outcome this role owns.
 ## Core responsibilities
 
 - responsibility;
-- required Action and Salesflow instruction;
+- required Salesflow instruction;
 - completion standard.
 
 ## Authority

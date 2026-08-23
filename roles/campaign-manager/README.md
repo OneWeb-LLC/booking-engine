@@ -32,13 +32,13 @@ Generate qualified demand and maintain enough eligible work for the Booking Engi
 
 ## Responsibility map
 
-| Responsibility | Standard | Configuration or instruction |
-|---|---|---|
-| Maintain customer state | [Update an opportunity](../../actions/records/update-opportunity.md) | [Salesflow opportunity instruction](../../salesflow/native/opportunities/update-opportunity.md) |
-| Restore eligible demand | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Recovery instruction](../../salesflow/native/recoveries/execute-recovery.md) |
-| Supply pooled outreach | [Work pooled calls standard](../../actions/work/work-call-queue.md) | [Snapshot Workflow Catalog](../../snapshot/workflows/README.md) |
-| Control activation | [Activate a fresh lead](../../actions/calls/activate-lead.md) | [Path Orchestration specification](../../salesflow/administration/workflow-specifications.md) |
-| Monitor installed behavior | [Booking Engine Snapshot](../../snapshot/README.md) | [Snapshot manifest](../../snapshot/manifest.yaml) |
+| Responsibility | Reference |
+|---|---|
+| Maintain customer state | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
+| Restore eligible demand | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Supply pooled outreach | [Work the Call Queue](../../salesflow/instructions/call-queue/work-call-queue.md) |
+| Control activation | [Workflow specifications](../../salesflow/administration/workflow-specifications.md) |
+| Monitor installed behavior | [Snapshot reservation](../../snapshot/README.md) |
 
 ## Scorecard
 

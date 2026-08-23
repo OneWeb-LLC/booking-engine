@@ -42,14 +42,14 @@ The Sales Officer owns closing authority defined in the client profile. The role
 
 ## Responsibility map
 
-| Responsibility | Action standard | Salesflow instruction |
-|---|---|---|
-| Conduct scheduled sales work | [Manage an appointment](../../actions/appointments/manage-appointment.md) | [Manage in Salesflow](../../salesflow/native/appointments/manage-appointment.md) |
-| Accept live opportunities | [Warm-transfer standard](../../actions/calls/warm-transfer.md) | [Use Salesflow transfer](../../salesflow/native/live-calls/warm-transfer.md) |
-| Maintain pipeline truth | [Update an opportunity](../../actions/records/update-opportunity.md) | [Update in Salesflow](../../salesflow/native/opportunities/update-opportunity.md) |
-| Complete owned follow-up | [Complete an Assigned Task](../../actions/work/complete-assigned-task.md) | [Work Salesflow Tasks](../../salesflow/native/assigned-tasks/work-assigned-tasks.md) |
-| Record outcomes | [Document a call](../../actions/calls/document-call.md) | [Document in Salesflow](../../salesflow/native/notes-and-dispositions/document-call.md) |
-| Restore unresolved decisions | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Execute Recovery](../../salesflow/native/recoveries/execute-recovery.md) |
+| Responsibility | Salesflow instruction |
+|---|---|
+| Conduct scheduled sales work | [Manage an appointment](../../salesflow/instructions/appointments/manage-appointment.md) |
+| Accept live opportunities | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
+| Maintain pipeline truth | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
+| Complete owned follow-up | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
+| Record outcomes | [Document a call](../../salesflow/instructions/notes-and-dispositions/document-call.md) |
+| Restore unresolved decisions | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

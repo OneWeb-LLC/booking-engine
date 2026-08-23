@@ -30,12 +30,12 @@ Maintain coverage, quality, accountability, and coaching across the Booking Engi
 
 ## Responsibility map
 
-| Responsibility | Standard or action | Management reference |
-|---|---|---|
-| Enforce operating order | [Work Priorities](../../methodology/work-priorities.md) | [Agent Workspace](../../salesflow/snapshot/agent-workspace.md) |
-| Coach execution | [Action directory](../../actions/README.md) | [Native instruction directory](../../salesflow/native/README.md) |
-| Review system failures | [Restore broken progress](../../actions/recoveries/restore-progress.md) | [Recovery instruction](../../salesflow/native/recoveries/execute-recovery.md) |
-| Verify training | [Certification course](../../training/course-outline.md) | [UI Verification](../../governance/UI-VERIFICATION.md) |
+| Responsibility | Reference |
+|---|---|
+| Enforce operating order | [Work Priorities](../../methodology/work-priorities.md) |
+| Coach execution | [Salesflow Instruction directory](../../salesflow/instructions/README.md) |
+| Review system failures | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Verify training | [Certification course](../../training/course-outline.md) |
 
 ## Scorecard
 

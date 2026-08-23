@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0 — 2026-08-23
+
+- Removed the employee-facing Actions layer and made each Salesflow Instruction the single source for both the operating outcome and exact execution.
+- Changed role responsibility maps to link directly to Salesflow Instructions.
+- Reorganized employee instructions by work performed instead of Native versus Snapshot implementation source.
+- Adopted a Staff Notebook/Scribe-style instruction standard: exact navigation, one click or entry per step, field-entry rules, visible completion checks, automation, exceptions, and screenshot requirements.
+- Simplified employee navigation and separated it from administrator and maintainer material.
+- Reserved the Snapshot section as a blank implementation scaffold until the real Snapshot is created and audited.
+- Separated framework versioning from future Snapshot versioning.
+
 ## 0.5.0 — 2026-08-23
 
 - Reorganized the repository as a living wiki: Methodology → Roles → Actions → Salesflow Instructions → Snapshot → Training → Governance.
