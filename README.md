@@ -22,8 +22,8 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 - [Universal call taxonomy](docs/06-call-types.md)
 - [Dispositions and documentation](docs/07-dispositions-documentation.md)
 - [Management system and KPIs](docs/08-management-system.md)
-- [GoHighLevel implementation](implementation/gohighlevel/README.md)
-- [Workflow specifications](implementation/gohighlevel/workflow-specifications.md)
+- [Salesflow implementation](implementation/salesflow/README.md)
+- [Workflow specifications](implementation/salesflow/workflow-specifications.md)
 - [Client configuration template](templates/client-profile.yaml)
 - [AI maintenance rules](governance/AI-MAINTENANCE.md)
 
@@ -44,8 +44,8 @@ If the Call Queue falls below capacity, the campaign manager—not the agent—o
 The content is written in Markdown so it can be delivered through:
 
 - a Salesflow knowledge center;
-- a GoHighLevel custom menu page;
-- a GoHighLevel course or membership product;
+- a Salesflow custom menu page;
+- a Salesflow course or membership product;
 - a static documentation site;
 - an AI assistant grounded on the repository;
 - exported PDFs or onboarding materials.
@@ -53,4 +53,3 @@ The content is written in Markdown so it can be delivered through:
 ## Status
 
 Version `0.1.0` establishes the universal framework. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
-

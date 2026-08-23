@@ -1,17 +1,17 @@
-# GoHighLevel Implementation
+# Salesflow Implementation
 
 ## Recommended delivery architecture
 
-Use GoHighLevel for execution and a version-controlled source for governance.
+Use Salesflow for execution and this version-controlled repository for governance.
 
 - **GitHub:** canonical framework and change history.
-- **GHL custom page:** daily operating dashboard and quick-reference system.
-- **GHL course:** structured onboarding, demonstrations, quizzes, and certification.
-- **GHL workflows:** routing, tasks, Manual Actions, reminders, suppression, and reporting events.
+- **Salesflow custom page:** daily operating dashboard and quick-reference system.
+- **Salesflow course:** structured onboarding, demonstrations, quizzes, and certification.
+- **Salesflow workflows:** routing, tasks, Manual Actions, reminders, suppression, and reporting events.
 
 The custom page and course should be generated or updated from this repository where practical. Do not allow independent copies to drift without a version number.
 
-## Required GHL components
+## Required Salesflow components
 
 - calendars and appointment types;
 - team users and skill groups;
