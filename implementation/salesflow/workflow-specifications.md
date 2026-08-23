@@ -47,6 +47,35 @@ Trigger: call disposition.
 3. Enroll within allowed capacity.
 4. Prefer queue pacing over flooding the team.
 
+## WF-07 Conversion Recovery
+
+Trigger: completed sales conversation without commitment.
+
+1. Capture objection, decision status, next action, and owner.
+2. Keep the opportunity inside the configured active sales window.
+3. Create an appointment for exact-time commitments, an Assigned Task for personal work, or a Call Queue entry for pooled follow-up.
+4. Exit on conversion, disqualification, DND, or transition to reactivation.
+
+## WF-08 Payment Recovery
+
+Trigger: payment initiated but incomplete, declined, abandoned, or overdue.
+
+1. Confirm the customer still intends to proceed.
+2. Protect sensitive payment information.
+3. Assign the correct owner and due time.
+4. Resume onboarding after successful payment.
+5. Escalate unresolved discrepancies according to client configuration.
+
+## WF-09 Onboarding Recovery
+
+Trigger: committed customer has incomplete documents, setup, registration, or activation.
+
+1. Identify the missing onboarding requirement.
+2. Assign the responsible coordinator.
+3. Communicate the exact next step and deadline.
+4. Preserve the sales-to-onboarding handoff context.
+5. Exit when activation is complete or escalation is accepted.
+
 ## Universal pre-enrollment checks
 
 - valid callable number;
@@ -58,4 +87,3 @@ Trigger: call disposition.
 - no duplicate Manual Action;
 - no terminal disposition;
 - attempt limit not exceeded.
-

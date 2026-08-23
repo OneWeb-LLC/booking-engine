@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Work System
-  version: 0.1.0
+  version: 0.2.0
 
 client:
   name: ""
@@ -9,10 +9,31 @@ client:
   business_hours: {}
 
 roles:
-  agent: Agent
-  campaign_manager: Campaign Manager
-  team_manager: Team Manager
-  support: Support
+  campaign_manager:
+    display_name: Campaign Manager
+  booking_agent:
+    display_name: Booking Agent
+  sales_representative:
+    display_name: Sales Representative
+  onboarding_coordinator:
+    display_name: Onboarding Coordinator
+  support_representative:
+    display_name: Support Representative
+  team_manager:
+    display_name: Team Manager
+  system_administrator:
+    display_name: Salesflow Administrator
+
+customer_journey:
+  lead_generation: {}
+  lead_activation: {}
+  contact_and_qualification: {}
+  booking: {}
+  appointment: {}
+  conversion: {}
+  payment: {}
+  onboarding: {}
+  customer_success: {}
 
 work_priorities:
   - Appointments
@@ -50,3 +71,11 @@ suppression_rules: []
 escalation_paths: []
 compliance_requirements: []
 
+recoveries:
+  activation: {}
+  booking: {}
+  appointment: {}
+  conversion: {}
+  payment: {}
+  onboarding: {}
+  reactivation: {}

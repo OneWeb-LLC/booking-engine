@@ -23,6 +23,9 @@ The custom page and course should be generated or updated from this repository w
 - suppression and collision checks;
 - recovery and reactivation workflows;
 - reporting dashboards.
+- Customer Journey stages and ownership;
+- Golden Path and recovery workflow mappings;
+- handoff records with context, owner, and acceptance state.
 
 ## Recommended custom menu
 
@@ -44,7 +47,8 @@ Use a short certification course for initial training:
 5. Call Queue and Call Briefs
 6. Dispositions and Documentation
 7. Client-specific scripts and compliance
-8. Practical assessment
+8. Golden Path and Recoveries
+9. Roles and Handoffs
+10. Practical assessment
 
 The course teaches the system. The custom page operates the system.
-

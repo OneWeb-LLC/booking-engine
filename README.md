@@ -1,6 +1,13 @@
 # Salesflow Work System
 
-The Salesflow Work System is a portable operating framework for keeping customer-facing teams responsive, accountable, and continuously productive.
+The Salesflow Work System is the operating framework for the **Salesflow Booking Engine**. It defines how customer interest becomes a committed, onboarded, and supported customer—and how the system recovers when the ideal journey breaks.
+
+The framework has four connected layers:
+
+1. **Customer Journey** — where the customer should go.
+2. **Roles and Handoffs** — who owns each transition.
+3. **Work Priorities** — what users work on next.
+4. **Recoveries** — what happens when the Golden Path fails.
 
 Its invariant operating order is:
 
@@ -13,6 +20,11 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 
 ## Start here
 
+- [Booking Engine operating framework](framework/booking-engine.md)
+- [Customer Journey and Golden Path](framework/customer-journey.md)
+- [Roles and ownership](framework/roles-and-ownership.md)
+- [Handoffs](framework/handoffs.md)
+- [Recovery system](recoveries/README.md)
 - [Framework overview](docs/00-start-here.md)
 - [The Four Work Priorities](docs/01-work-priorities.md)
 - [Appointments](docs/02-appointments.md)
@@ -52,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.1.0` establishes the universal framework. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
+Version `0.2.0` establishes the Booking Engine, Golden Path, universal roles, handoffs, and recovery architecture. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
