@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.6.0
+  version: 0.6.1
 
 snapshot:
   mode: core_salesflow

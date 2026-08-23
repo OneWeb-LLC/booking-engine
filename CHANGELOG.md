@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.1 — 2026-08-23
+
+- Made booking the correct appointment the mandatory default when a warm transfer fails.
+- Required the transferring user to retain ownership until the appointment is saved and confirmed.
+- Prohibited ending a failed transfer with only a task, note, Call Queue entry, or unconfirmed callback promise.
+- Added the rule to handoffs, Booking Agent responsibilities, inbound-call handling, documentation, and training.
+
 ## 0.6.0 — 2026-08-23
 
 - Removed the employee-facing Actions layer and made each Salesflow Instruction the single source for both the operating outcome and exact execution.

@@ -35,6 +35,8 @@ A handoff is complete only when:
 
 For warm transfers, the transferring person remains until the recipient answers, context is introduced, and the connection is confirmed.
 
+If the intended recipient cannot accept the warm transfer, the transferring person retains ownership and books the customer into the correct appointment before ending the call. A task, note, Call Queue entry, or unconfirmed promise to call later does not satisfy the failed-transfer requirement.
+
 ## Asynchronous handoff
 
 For tasks and onboarding transitions, ownership, due time, context, and acknowledgment must be recorded. An unaccepted handoff must remain visible to management.

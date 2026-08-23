@@ -40,9 +40,15 @@ The customer and receiving person are connected with the correct context, and re
 
 1. Return to the customer immediately.
 2. Apologize without blaming the recipient or system.
-3. Preserve the live opportunity.
-4. Close within your authority, try another approved recipient, or book the correct appointment.
-5. Enter Recovery only when no valid live advancement remains.
+3. Tell the customer that the intended recipient is unavailable and offer the correct appointment.
+4. Open the client-approved calendar while the customer remains on the call.
+5. Book the appointment with the intended Sales Officer or appropriate receiving role.
+6. Confirm the date, time, time zone, purpose, and meeting method with the customer.
+7. Confirm the appointment is saved and the configured confirmation was sent.
+8. Record the client-approved failed-transfer disposition and the booked appointment outcome.
+9. Retain ownership until the appointment is saved and confirmed.
+
+A failed warm transfer does not become generic Call Queue work. The default next step is a booked appointment with the intended receiving role.
 
 ## Common mistakes
 
@@ -50,3 +56,4 @@ The customer and receiving person are connected with the correct context, and re
 - Disconnecting before the recipient answers.
 - Transferring without context.
 - Assuming ownership moved when the recipient did not accept.
+- Ending a failed transfer with only a task, note, or promise to call back instead of booking the appointment.

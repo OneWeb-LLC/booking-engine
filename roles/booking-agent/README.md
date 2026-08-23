@@ -38,6 +38,7 @@ Convert new interest into the strongest valid next step: a correctly protected a
 - Recognize when the lead can advance beyond the expected next step.
 - Complete a configured Buy Now or authorized close when permitted.
 - Otherwise warm-transfer the qualified lead to the correct Sales Officer.
+- If the Sales Officer cannot accept the warm transfer, book the correct appointment before ending the call.
 - Never skip mandatory consent, eligibility, payment, safety, or compliance requirements.
 - Resolve future calls, tasks, or appointments made obsolete by the advancement.
 

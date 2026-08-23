@@ -32,7 +32,7 @@ The caller received a resolution, appointment, completed conversion, accepted ha
 ## If something goes wrong
 
 - Call drops → attempt immediate callback using the verified number.
-- Recipient unavailable → retain ownership, explain the next step, and create the correct commitment.
+- Warm-transfer recipient unavailable → retain ownership and book the correct appointment before ending the call.
 - Wrong department → warm-transfer with context; do not send the caller away blindly.
 
 ## Common mistakes

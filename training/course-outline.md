@@ -32,7 +32,7 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 - inbound calls
 - Zero Friction
 - warm transfers
-- failed transfers
+- failed transfer → book the correct appointment before ending the call
 - one active call objective
 
 ### Module 5 — Documentation and Recovery

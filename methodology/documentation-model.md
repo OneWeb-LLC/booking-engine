@@ -23,6 +23,8 @@
 
 Clients may extend this list, but synonyms should be consolidated to preserve reporting.
 
+**Warm Transfer Failed** is not a valid unfinished exit. The call owner must book and confirm the appropriate appointment before completing the call record. The client configuration should preserve both facts: the transfer failed and the appointment was booked.
+
 ## Documentation model
 
 | System object | Purpose |
