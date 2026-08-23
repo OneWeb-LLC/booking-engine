@@ -25,38 +25,17 @@ Its invariant operating order is:
 
 The industries, scripts, pipelines, and service-level targets may change. The work methodology does not.
 
-## Start here
+## Living wiki hierarchy
 
-- [Documentation map](docs/README.md)
-- [Booking Engine operating framework](framework/booking-engine.md)
-- [Customer Journey and Path Tiers](framework/customer-journey.md)
-- [Roles and ownership](framework/roles-and-ownership.md)
-- [Handoffs](framework/handoffs.md)
-- [Recovery system](recoveries/README.md)
-- [Framework overview](docs/00-start-here.md)
-- [The Four Work Priorities](docs/01-work-priorities.md)
-- [Appointments](docs/02-appointments.md)
-- [Live Calls and Zero Friction](docs/03-live-calls.md)
-- [Assigned Tasks](docs/04-assigned-tasks.md)
-- [Call Queue](docs/05-call-queue.md)
-- [Universal call taxonomy](docs/06-call-types.md)
-- [Dispositions and documentation](docs/07-dispositions-documentation.md)
-- [Management system and KPIs](docs/08-management-system.md)
-- [Salesflow implementation](implementation/salesflow/README.md)
-- [Workflow specifications](implementation/salesflow/workflow-specifications.md)
-- [Client configuration template](templates/client-profile.yaml)
-- [AI maintenance rules](governance/AI-MAINTENANCE.md)
+1. **[Methodology](methodology/README.md)** — why the Booking Engine works and the universal rules.
+2. **[Roles](roles/README.md)** — who owns each responsibility and the role's authority.
+3. **[Actions](actions/README.md)** — what outcome must be accomplished, independent of software.
+4. **[Salesflow Instructions](salesflow/README.md)** — how to execute the action in Salesflow.
+5. **[Snapshot](snapshot/README.md)** — what custom configuration, fields, workflows, and navigation are installed.
+6. **[Training](training/course-outline.md)** — how employees learn and certify.
+7. **[Governance](governance/AI-MAINTENANCE.md)** — how the living wiki remains trustworthy.
 
-## Documentation layers
-
-The repository separates doctrine from execution:
-
-1. **Framework** — universal rules and decision logic.
-2. **Playbooks** — what each role owns and does.
-3. **Procedures** — exact Salesflow navigation and clicks.
-4. **Implementation** — how administrators configure and maintain the system.
-
-Employees should begin with their role playbook and open a procedure only when they need exact execution steps. Maintainers use the framework, implementation specifications, governance rules, and source ledger.
+Employees begin with their role. Each responsibility links to a reusable action standard and the exact Salesflow instruction. Native instructions are separated from Snapshot-dependent instructions.
 
 ## Core operating loop
 
@@ -83,4 +62,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.4.0` adds the Salesflow-owned documentation and training architecture, universal role playbooks, and frontline click-by-click procedures. Client-specific implementations should configure milestones, authority, scripts, and screenshots without rewriting the core rules.
+Version `0.5.0` establishes the living-wiki hierarchy, separates methodology from product instructions, and creates the versioned Snapshot namespace for native mappings, custom fields, workflows, pipelines, calendars, routing, dispositions, navigation, and dashboards.

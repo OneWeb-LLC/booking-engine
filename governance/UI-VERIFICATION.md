@@ -1,13 +1,13 @@
 # UI Verification Standard
 
-Click-by-click procedures are trustworthy only when the visible Salesflow interface matches the instruction.
+Click-by-click Salesflow instructions are trustworthy only when the visible Salesflow interface matches the page.
 
 ## Verification states
 
 - **Draft:** logic written but not tested in Salesflow.
 - **Verified:** completed successfully in the designated test account.
 - **Client Verified:** confirmed with that client's permissions, labels, and configuration.
-- **Review Required:** interface or workflow change may have invalidated the procedure.
+- **Review Required:** interface or workflow change may have invalidated the instruction.
 
 ## Verification checklist
 
@@ -19,7 +19,7 @@ Click-by-click procedures are trustworthy only when the visible Salesflow interf
 6. Test at least one failure or Recovery path.
 7. Capture Salesflow-branded screenshots without unnecessary personal or sensitive data.
 8. Record account, role, verifier, date, and result.
-9. Mark affected procedures Client Verified only after client-specific labels and permissions are confirmed.
+9. Mark affected instructions Client Verified only after client-specific labels and permissions are confirmed.
 
 ## Screenshot standard
 
@@ -27,7 +27,7 @@ Click-by-click procedures are trustworthy only when the visible Salesflow interf
 - Use a test contact and redact unnecessary identifiers.
 - Show the visible label being clicked.
 - Add a numbered callout when the target is not obvious.
-- Store screenshots beside the procedure or in its client deployment asset folder.
+- Store screenshots beside the instruction or in its client deployment asset folder.
 - Replace screenshots rather than accumulating obsolete versions in the employee experience.
 
 ## Review triggers
@@ -37,4 +37,4 @@ Click-by-click procedures are trustworthy only when the visible Salesflow interf
 - new role or permission behavior;
 - workflow or disposition change;
 - calendar, pipeline, or routing change;
-- employee reports that the procedure no longer matches Salesflow.
+- employee reports that the instruction no longer matches Salesflow.

@@ -3,7 +3,7 @@
 **Audience:** Maintainers only  
 **Last source review:** 2026-08-23
 
-These sources document underlying platform behavior. They are evidence for maintaining Salesflow procedures, not employee training destinations.
+These sources document underlying platform behavior. They are evidence for maintaining Salesflow instructions, not employee training destinations.
 
 | Salesflow capability | Maintainer source | Last reviewed |
 |---|---|---|
@@ -31,7 +31,7 @@ An external article is not sufficient verification. Before changing a click path
 
 1. review the relevant source;
 2. verify the behavior inside Salesflow;
-3. update the procedure's Last verified date;
+3. update the instruction's Last verified date;
 4. replace outdated Salesflow screenshots;
-5. check connected workflows and downstream procedures;
+5. check connected workflows and downstream instructions;
 6. publish the complete instruction inside the Salesflow knowledge experience.

@@ -1,63 +1,84 @@
 # Salesflow Booking Engine
 
-- [Start Here](README.md)
-- [Documentation Map](docs/README.md)
+- [Home](README.md)
 
-## Framework
+## Methodology
 
-- [Operating Framework](framework/booking-engine.md)
-- [Customer Journey and Path Tiers](framework/customer-journey.md)
-- [Roles and Ownership](framework/roles-and-ownership.md)
-- [Handoffs](framework/handoffs.md)
-- [Four Work Priorities](docs/01-work-priorities.md)
+- [Methodology Home](methodology/README.md)
+- [Operating Framework](methodology/booking-engine.md)
+- [Customer Journey and Path Tiers](methodology/customer-journey.md)
+- [Work Priorities](methodology/work-priorities.md)
+- [Roles and Ownership](methodology/roles-and-ownership.md)
+- [Handoffs](methodology/handoffs.md)
+- [Call Taxonomy](methodology/call-taxonomy.md)
+- [Documentation Model](methodology/documentation-model.md)
+- [Management System](methodology/management-system.md)
+- [Recoveries](recoveries/README.md)
 
-## Role Playbooks
+## Roles
 
-- [Role Directory](playbooks/README.md)
-- [Booking Agent](playbooks/booking-agent/README.md)
-- [Sales Officer](playbooks/sales-officer/README.md)
-- [Onboarding Coordinator](playbooks/onboarding-coordinator/README.md)
-- [Support Representative](playbooks/support-representative/README.md)
-- [Campaign Manager](playbooks/campaign-manager/README.md)
-- [Team Manager](playbooks/team-manager/README.md)
-- [Salesflow Administrator](playbooks/salesflow-administrator/README.md)
+- [Role Directory](roles/README.md)
+- [Booking Agent](roles/booking-agent/README.md)
+- [Sales Officer](roles/sales-officer/README.md)
+- [Onboarding Coordinator](roles/onboarding-coordinator/README.md)
+- [Support Representative](roles/support-representative/README.md)
+- [Campaign Manager](roles/campaign-manager/README.md)
+- [Team Manager](roles/team-manager/README.md)
+- [Salesflow Administrator](roles/salesflow-administrator/README.md)
 
-## Salesflow Procedures
+## Actions
 
-- [Procedure Directory](procedures/README.md)
-- [Start Your Shift](procedures/salesflow/daily/start-shift.md)
-- [Manage Conversations](procedures/salesflow/conversations/manage-inbox.md)
-- [Book an Appointment](procedures/salesflow/appointments/book-appointment.md)
-- [Manage an Appointment](procedures/salesflow/appointments/manage-appointment.md)
-- [Answer an Inbound Call](procedures/salesflow/live-calls/answer-inbound-call.md)
-- [Handle Zero Friction](procedures/salesflow/live-calls/handle-zero-friction.md)
-- [Warm Transfer](procedures/salesflow/live-calls/warm-transfer.md)
-- [Work Assigned Tasks](procedures/salesflow/assigned-tasks/work-assigned-tasks.md)
-- [Work the Call Queue](procedures/salesflow/call-queue/work-call-queue.md)
-- [Update an Opportunity](procedures/salesflow/opportunities/update-opportunity.md)
-- [Document a Call](procedures/salesflow/notes-and-dispositions/document-call.md)
-- [Add a Meaningful Note](procedures/salesflow/notes-and-dispositions/add-meaningful-note.md)
-- [Execute a Recovery](procedures/salesflow/recoveries/execute-recovery.md)
+- [Action Directory](actions/README.md)
+- [Start a Shift](actions/daily/start-shift.md)
+- [Handle a Message](actions/conversations/handle-message.md)
+- [Handle an Inbound Call](actions/calls/handle-inbound-call.md)
+- [Activate a Fresh Lead](actions/calls/activate-lead.md)
+- [Warm Transfer](actions/calls/warm-transfer.md)
+- [Document a Call](actions/calls/document-call.md)
+- [Book an Appointment](actions/appointments/book-appointment.md)
+- [Manage an Appointment](actions/appointments/manage-appointment.md)
+- [Complete an Assigned Task](actions/work/complete-assigned-task.md)
+- [Work Pooled Calls](actions/work/work-call-queue.md)
+- [Update an Opportunity](actions/records/update-opportunity.md)
+- [Preserve Meaningful Context](actions/records/add-meaningful-note.md)
+- [Restore Broken Progress](actions/recoveries/restore-progress.md)
 
-## Recoveries
+## Salesflow Instructions
 
-- [Recovery System](recoveries/README.md)
-- [Activation](recoveries/activation.md)
-- [Booking](recoveries/booking.md)
-- [Appointment](recoveries/appointment.md)
-- [Conversion](recoveries/conversion.md)
-- [Payment and Onboarding](recoveries/payment-and-onboarding.md)
-- [Reactivation](recoveries/reactivation.md)
+- [Salesflow Home](salesflow/README.md)
+- [Native Instructions](salesflow/native/README.md)
+- [Snapshot Instructions](salesflow/snapshot/README.md)
+- [Agent Workspace](salesflow/snapshot/agent-workspace.md)
+- [Call Brief](salesflow/snapshot/use-call-brief.md)
+- [Path and Objective Fields](salesflow/snapshot/path-and-objective-fields.md)
+- [Snapshot Dispositions](salesflow/snapshot/use-snapshot-dispositions.md)
 
-## Training and Implementation
+## Snapshot
+
+- [Snapshot Home](snapshot/README.md)
+- [Manifest](snapshot/manifest.yaml)
+- [Fields](snapshot/fields/README.md)
+- [Native Field Map](snapshot/fields/native.md)
+- [Custom Field Contract](snapshot/fields/custom.md)
+- [Workflows](snapshot/workflows/README.md)
+- [Pipelines](snapshot/pipelines/README.md)
+- [Calendars](snapshot/calendars/README.md)
+- [Phone and Routing](snapshot/phone-and-routing/README.md)
+- [Dispositions](snapshot/dispositions/README.md)
+- [Navigation](snapshot/navigation/README.md)
+- [Dashboards](snapshot/dashboards/README.md)
+
+## Training and Administration
 
 - [Certification Course](training/course-outline.md)
-- [Salesflow Implementation](implementation/salesflow/README.md)
-- [Knowledge Center Delivery](implementation/salesflow/knowledge-center.md)
-- [Workflow Specifications](implementation/salesflow/workflow-specifications.md)
+- [Salesflow Administration](salesflow/administration/README.md)
+- [Knowledge Center Delivery](salesflow/administration/knowledge-center.md)
+- [Workflow Specifications](salesflow/administration/workflow-specifications.md)
 - [Client Profile](templates/client-profile.yaml)
 
 ## Governance
 
+- [Living Wiki Architecture](governance/WIKI-ARCHITECTURE.md)
 - [AI Maintenance Rules](governance/AI-MAINTENANCE.md)
 - [UI Verification](governance/UI-VERIFICATION.md)
+- [Maintainer References](references/README.md)

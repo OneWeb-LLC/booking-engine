@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.0 — 2026-08-23
+
+- Reorganized the repository as a living wiki: Methodology → Roles → Actions → Salesflow Instructions → Snapshot → Training → Governance.
+- Separated platform-independent Booking Engine doctrine from Salesflow-native clicks and Snapshot-dependent instructions.
+- Added reusable action standards so role pages link instead of duplicating procedures.
+- Added responsibility maps to every universal role.
+- Added native and Snapshot Salesflow instruction namespaces.
+- Added the planned Snapshot manifest and component catalogs for fields, workflows, pipelines, calendars, phone routing, dispositions, navigation, and dashboards.
+- Replaced the ambiguous flat `docs/` section with canonical methodology, action, and instruction locations.
+- Preserved standard Markdown and relative linking for GitBook, DeepWiki, and One Wiki compatibility.
+
 ## 0.4.0 — 2026-08-23
 
 - Added a layered documentation architecture separating framework, role playbooks, procedures, and implementation.
