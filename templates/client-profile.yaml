@@ -1,6 +1,6 @@
 framework:
-  name: Salesflow Work System
-  version: 0.2.0
+  name: Salesflow Booking Engine
+  version: 0.2.1
 
 client:
   name: ""

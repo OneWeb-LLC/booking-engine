@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 — 2026-08-23
+
+- Renamed the canonical repository to `SalesflowOne/booking-engine`.
+- Standardized the product and framework name as **Salesflow Booking Engine**.
+- Positioned the Four Work Priorities as an execution subsystem within the Booking Engine.
+
 ## 0.2.0 — 2026-08-23
 
 - Reframed the system as the operating framework for the Salesflow Booking Engine.

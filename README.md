@@ -1,6 +1,6 @@
-# Salesflow Work System
+# Salesflow Booking Engine
 
-The Salesflow Work System is the operating framework for the **Salesflow Booking Engine**. It defines how customer interest becomes a committed, onboarded, and supported customer—and how the system recovers when the ideal journey breaks.
+The **Salesflow Booking Engine** is the operating framework that converts customer interest into committed, onboarded, and supported customers—and recovers when the ideal journey breaks.
 
 The framework has four connected layers:
 
@@ -64,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.2.0` establishes the Booking Engine, Golden Path, universal roles, handoffs, and recovery architecture. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
+Version `0.2.1` establishes **Salesflow Booking Engine** as the canonical product and framework name. Client-specific implementations should extend the framework through configuration rather than rewriting its core rules.
