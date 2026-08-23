@@ -1,0 +1,52 @@
+framework:
+  name: Salesflow Work System
+  version: 0.1.0
+
+client:
+  name: ""
+  industry: ""
+  timezone: America/New_York
+  business_hours: {}
+
+roles:
+  agent: Agent
+  campaign_manager: Campaign Manager
+  team_manager: Team Manager
+  support: Support
+
+work_priorities:
+  - Appointments
+  - Live Calls
+  - Assigned Tasks
+  - Call Queue
+
+appointments:
+  preparation_window_minutes: 10
+  exact_time_callbacks_are_appointments: true
+  types: []
+
+live_calls:
+  inbound_enabled: true
+  warm_transfer_enabled: true
+  zero_friction_enabled: true
+  wrap_up_seconds: 90
+  skill_groups: []
+
+tasks:
+  due_window_minutes: 0
+  unassigned_call_briefs_visible_as_tasks: false
+
+call_queue:
+  active_followup_window_days: 30
+  reactivation_threshold_days: 30
+  max_attempts: null
+  retry_cadence: []
+  queue_low_hours: 4
+  queue_critical_hours: 1
+
+dispositions: []
+pipeline_stages: []
+suppression_rules: []
+escalation_paths: []
+compliance_requirements: []
+
