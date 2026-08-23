@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-08-23
+
+- Added a layered documentation architecture separating framework, role playbooks, procedures, and implementation.
+- Added role playbooks for Booking Agent, Sales Officer, Onboarding Coordinator, Support Representative, Campaign Manager, Team Manager, and Salesflow Administrator.
+- Added frontline Salesflow procedures for appointments, live calls, Zero Friction, warm transfers, tasks, Call Queue, opportunities, notes, dispositions, and Recoveries.
+- Added standard templates for role playbooks and click-by-click procedures.
+- Added maintainer-only vendor source mapping and verification requirements while keeping employee documentation Salesflow-branded.
+- Added documentation indexes designed for a Salesflow custom menu page and certification course.
+
 ## 0.3.0 — 2026-08-23
 
 - Replaced the single Golden Path with four operating tiers: Standard, Assisted, Expedited, and Recovery.

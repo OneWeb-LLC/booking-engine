@@ -21,6 +21,8 @@ The invariant may be changed only by an explicit governance decision, not as a s
 4. Check for contradictions and duplicate instructions.
 5. Update the framework version and changelog.
 6. Require human review before deployment into client accounts.
+7. Keep external vendor sources inside the maintainer reference ledger; employee pages must contain complete Salesflow-branded instructions.
+8. Re-verify visible clicks inside Salesflow and update screenshots whenever the interface changes.
 
 ## AI review checklist
 
@@ -38,6 +40,8 @@ The invariant may be changed only by an explicit governance decision, not as a s
 - Does every workflow have entry, retry, failure, exit, and escalation paths?
 - Does the agent know exactly what to do?
 - Can management identify whether a failure belongs to the agent, campaign, staffing, or system?
+- Does every employee procedure identify outcome, exact navigation, completion, automation, exception, and verification state?
+- Does the employee page avoid sending users to an external vendor for instructions?
 
 ## Versioning
 

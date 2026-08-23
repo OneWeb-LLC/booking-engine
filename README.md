@@ -2,7 +2,7 @@
 
 The **Salesflow Booking Engine** is the universal operating framework for service businesses that moves customer interest through **Campaign → Capture → Convert → Close**, then hands the customer to onboarding and support.
 
-The framework has four connected layers:
+The framework has four connected operating layers:
 
 1. **Customer Journey** — where the customer should go.
 2. **Roles and Handoffs** — who owns each transition.
@@ -27,6 +27,7 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 
 ## Start here
 
+- [Documentation map](docs/README.md)
 - [Booking Engine operating framework](framework/booking-engine.md)
 - [Customer Journey and Path Tiers](framework/customer-journey.md)
 - [Roles and ownership](framework/roles-and-ownership.md)
@@ -45,6 +46,17 @@ The industries, scripts, pipelines, and service-level targets may change. The wo
 - [Workflow specifications](implementation/salesflow/workflow-specifications.md)
 - [Client configuration template](templates/client-profile.yaml)
 - [AI maintenance rules](governance/AI-MAINTENANCE.md)
+
+## Documentation layers
+
+The repository separates doctrine from execution:
+
+1. **Framework** — universal rules and decision logic.
+2. **Playbooks** — what each role owns and does.
+3. **Procedures** — exact Salesflow navigation and clicks.
+4. **Implementation** — how administrators configure and maintain the system.
+
+Employees should begin with their role playbook and open a procedure only when they need exact execution steps. Maintainers use the framework, implementation specifications, governance rules, and source ledger.
 
 ## Core operating loop
 
@@ -71,4 +83,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.3.0` establishes the universal four-phase service-business journey and four path tiers. Client-specific implementations should configure milestones, authority, and required steps without rewriting the core rules.
+Version `0.4.0` adds the Salesflow-owned documentation and training architecture, universal role playbooks, and frontline click-by-click procedures. Client-specific implementations should configure milestones, authority, scripts, and screenshots without rewriting the core rules.

@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.3.0
+  version: 0.4.0
 
 client:
   name: ""
@@ -97,6 +97,14 @@ pipeline_stages: []
 suppression_rules: []
 escalation_paths: []
 compliance_requirements: []
+
+documentation:
+  knowledge_center_enabled: true
+  course_enabled: true
+  role_playbooks: []
+  screenshot_asset_root: ""
+  verification_account: ""
+  last_client_ui_verification: null
 
 recoveries:
   activation: {}

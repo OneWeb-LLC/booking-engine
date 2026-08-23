@@ -11,6 +11,8 @@ Use Salesflow for execution and this version-controlled repository for governanc
 
 The custom page and course should be generated or updated from this repository where practical. Do not allow independent copies to drift without a version number.
 
+See the [knowledge-center delivery specification](knowledge-center.md) for the employee experience.
+
 ## Required Salesflow components
 
 - calendars and appointment types;
@@ -51,4 +53,4 @@ Use a short certification course for initial training:
 9. Roles and Handoffs
 10. Practical assessment
 
-The course teaches the system. The custom page operates the system.
+The course teaches and certifies the system. The custom page operates the system. Both must link to the same versioned playbooks and procedures.
