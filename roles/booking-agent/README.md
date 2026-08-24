@@ -27,10 +27,10 @@ Convert new interest into the strongest valid next step: a correctly protected a
 3. **Call Queue**
    - pooled New Lead Activation;
    - missed-call follow-up;
-   - booking and appointment recovery calls assigned to the Booking team;
+   - booking recovery and appointment rebooking calls assigned to the Booking team;
    - approved reactivation and retry calls.
 
-Booking Agents create, confirm, and reschedule appointments for Sales Officers, but they do not conduct the sales appointments and therefore do not carry Appointments as an assigned work type.
+Booking Agents create, confirm, reschedule, and restore appointments for Sales Officers. They do not prepare for, conduct, complete, or document the sales outcome of those appointments and therefore do not carry Appointments as an assigned work type.
 
 ## Standard Path
 
