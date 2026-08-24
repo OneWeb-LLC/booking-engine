@@ -1,7 +1,7 @@
 # Salesflow Instruction: Start Your Shift
 
 - **Roles:** All operators
-- **Work Priority:** Appointments → Live Calls → Assigned Tasks → Call Queue
+- **Work Priority:** Use only the work types assigned to your role
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
 - **UI verification:** Draft — client verification required
@@ -28,12 +28,13 @@ You are available for the correct work, prepared for scheduled commitments, and 
 - You are in the correct client account.
 - Your availability is accurate.
 - Calling works.
-- You know your next appointment and due task.
+- You know the highest-priority work assigned to your role.
 - You know where live handoffs can be sent.
 
 ## Common mistakes
 
 - Working in the wrong client account.
 - Appearing available while unable to accept calls.
-- Opening the Call Queue without checking appointments and due tasks.
+- Opening a work area not assigned to your role.
+- Opening the Call Queue without checking your higher-priority assigned work.
 - Beginning work without knowing who can accept a transfer.
