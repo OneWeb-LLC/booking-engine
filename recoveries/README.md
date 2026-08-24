@@ -2,7 +2,7 @@
 
 Recoveries are named exception paths that return the customer to the strongest valid next step when a required transition fails, stalls, or becomes invalid.
 
-Recovery is Tier 4 of the operating model, but it may activate from any Journey phase and rejoin the Standard, Assisted, or Expedited Path.
+Recovery is one of the three operating paths. It may activate from any Journey phase and rejoin the Standard or Expedited Path.
 
 ## Recovery families
 
