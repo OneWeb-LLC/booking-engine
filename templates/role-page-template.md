@@ -34,7 +34,7 @@ Define the customer outcome this role owns.
 
 - action and receiving role.
 
-## Standard, Assisted, Expedited, and Recovery behavior
+## Standard, Expedited, and Recovery behavior
 
 Describe what this role does in each path tier.
 
