@@ -13,7 +13,7 @@ Trigger: approved new inbound lead.
 7. Attempt Zero Friction when eligible.
 8. Recheck state immediately before the agent bridge and cancel any obsolete objective.
 9. On failure, preserve valid progress and enter the Recovery associated with the failed objective.
-10. On connection, continue through Standard or Expedited according to the current valid path.
+10. On connection, apply the Booking Call advancement rule: authorized Booking Agent close → accepted warm transfer to an authorized Sales Officer → booked appointment fallback.
 
 ## WF-02 Missed Inbound Call
 
@@ -59,9 +59,10 @@ Trigger: a lead event, state change, workflow enrollment, or pending human conne
 3. Select the strongest valid objective.
 4. Maintain exactly one active outbound call objective.
 5. Route configured automation and normal human effort through Standard, valid skipped steps through Expedited, and failed transitions through Recovery.
-6. Before execution or an agent bridge, recheck the state and replace obsolete work.
-7. After advancement, suppress superseded calls, tasks, workflows, reminders, and appointments.
-8. Record the prior state, new state, path movement, reason, and owner.
+6. For a ready lead on a Booking Call, select the destination in order: authorized Booking Agent close, accepted warm transfer, then booked appointment fallback.
+7. Before execution or an agent bridge, recheck the state and replace obsolete work.
+8. After advancement, suppress superseded calls, tasks, workflows, reminders, and appointments.
+9. Record the prior state, new state, path movement, reason, and owner.
 
 ## WF-08 Conversion Recovery
 
