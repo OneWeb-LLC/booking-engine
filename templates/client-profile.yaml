@@ -66,6 +66,9 @@ authority:
   booking_agent_close_actions: []
   sales_officer_required_actions: []
   specialist_handoffs: []
+  warm_transfer_initiator: booking_agent
+  warm_transfer_receiver: sales_officer
+  failed_warm_transfer_action: book_appointment
 
 work_priorities:
   - Appointments
