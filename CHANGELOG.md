@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.0 — 2026-08-24
+
+- Preserved Appointments, Live Calls, Assigned Tasks, and Call Queue as the four canonical work types.
+- Assigned only the applicable work types to each role.
+- Defined the specific expected calls and work underneath every role type.
+- Removed Appointments from the Booking Agent operating order.
+- Limited Sales Officer Live Calls to accepted warm transfers and explicitly routed sales opportunities.
+
 ## 0.8.1 — 2026-08-24
 
 - Assigned warm-transfer initiation to the Booking Agent.
