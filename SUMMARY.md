@@ -14,7 +14,7 @@
 - [Booking Agent](roles/booking-agent/README.md)
 - [Sales Officer](roles/sales-officer/README.md)
 - [Onboarding Coordinator](roles/onboarding-coordinator/README.md)
-- [Support Representative](roles/support-representative/README.md)
+- [Support Officer](roles/support-officer/README.md)
 - [Campaign Manager](roles/campaign-manager/README.md)
 - [Team Manager](roles/team-manager/README.md)
 - [Salesflow Administrator](roles/salesflow-administrator/README.md)
