@@ -1,12 +1,17 @@
-# Salesflow Instruction: Book an Appointment
+# Salesflow Instruction: Book, Confirm, or Reschedule an Appointment
 
-- **Roles:** Booking Agent, Sales Officer, Onboarding Coordinator, Support Officer
+- **Primary role:** Booking Agent
+- **Receiving appointment owner:** Sales Officer
 - **Journey phase:** Convert or post-Close service
 - **Path tier:** Standard, Expedited, or Recovery
 - **Work Priority:** Active Live Call or Assigned Task
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
 - **UI verification:** Draft — client verification required
+
+## Ownership boundary
+
+The Booking Agent creates, confirms, reschedules, and restores the appointment. The Booking Agent does not prepare for, conduct, complete, or document the sales outcome of the appointment. Those responsibilities belong to the Sales Officer.
 
 ## Outcome
 
@@ -74,6 +79,12 @@ An appointment is not complete until it appears in Salesflow and the customer kn
 ## What happens automatically
 
 Client configuration may send confirmations and reminders, create internal notifications, update pipeline stages, or suppress booking follow-up.
+
+## Confirm or reschedule
+
+- To confirm, verify the existing appointment details with the customer and record the client-approved confirmation status without creating a duplicate.
+- To reschedule, preserve the original context, create or update the replacement time, verify the correct Sales Officer, and ensure obsolete reminders will not conflict.
+- After a no-show, follow Appointment Recovery and restore the booking only after the Sales Officer records the truthful appointment outcome.
 
 ## If something goes wrong
 
