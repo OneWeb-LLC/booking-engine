@@ -11,7 +11,7 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 - broader Salesflow journey: Campaign → Capture → Convert → Close
 - Booking Engine boundary: submitted lead → Capture → booked appointment
 - optional Campaign management and client responsibility for Close
-- Standard, Assisted, Expedited, and Recovery Paths
+- Standard, Expedited, and Recovery Paths
 - required, conditional, and skippable milestones
 
 ### Module 2 — Four Work Priorities
@@ -61,7 +61,7 @@ Each role track includes:
 1. role mission and authority;
 2. start-of-shift demonstration;
 3. required click-by-click Salesflow Instructions;
-4. scenario decisions across all four path tiers;
+4. scenario decisions across all three operating paths;
 5. documentation exercise;
 6. escalation exercise;
 7. scored practical assessment.
