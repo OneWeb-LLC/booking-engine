@@ -11,6 +11,15 @@ Turn an accepted customer commitment into a fully activated customer with comple
 3. Review overdue Assigned Tasks and missing requirements.
 4. Confirm access to payment, document, registration, and provisioning tools.
 
+## Assigned work types
+
+1. **Appointments**
+   - scheduled onboarding, registration, payment, document, or activation commitments.
+2. **Live Calls**
+   - accepted live onboarding handoffs or routed onboarding assistance.
+3. **Assigned Tasks**
+   - personally owned payment, document, registration, provisioning, and activation requirements.
+
 ## Core work
 
 - accept the Sales Officer handoff;
