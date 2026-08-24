@@ -1,6 +1,7 @@
 # Salesflow Instruction: Prepare, Complete, and Update an Appointment
 
-- **Roles:** Booking Agent, Sales Officer, Onboarding Coordinator, Support Representative
+- **Primary sales role:** Sales Officer
+- **Other appointment-owning roles:** Onboarding Coordinator or Support Officer only when the client configures appointments for those functions
 - **Work Priority:** Appointments
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
