@@ -6,7 +6,7 @@ AI may propose, draft, compare, and update this framework, but must preserve the
 
 The framework must preserve:
 
-1. the universal Campaign → Capture → Convert → Close journey and four path tiers;
+1. the universal Campaign → Capture → Convert → Close journey and three operating paths;
 2. functional roles and explicit handoffs;
 3. the Four Work Priorities: Appointments, Live Calls, Assigned Tasks, Call Queue;
 4. named recovery paths for broken journey transitions.
@@ -27,7 +27,7 @@ The invariant may be changed only by an explicit governance decision, not as a s
 ## AI review checklist
 
 - Does the change preserve the four priorities?
-- Does the change preserve Standard, Assisted, Expedited, and Recovery as the four path tiers?
+- Does the change preserve Standard, Expedited, and Recovery as the three operating paths?
 - Does the change identify the Customer Journey stage and owner?
 - Does it distinguish fixed phases from configurable client milestones?
 - Does any Expedited movement validate required steps and role authority?
