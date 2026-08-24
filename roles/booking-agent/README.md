@@ -46,9 +46,10 @@ Booking Agents create, confirm, and reschedule appointments for Sales Officers, 
 ## Expedited Path
 
 - Recognize when the lead can advance beyond the expected next step.
-- Complete a configured Buy Now or authorized close when permitted.
-- Initiate the warm transfer of the qualified lead to the correct Sales Officer.
+- During a Booking Call, close immediately when the client has explicitly authorized the Booking Agent to complete that close action.
+- When the Booking Agent is not authorized, initiate a warm transfer to the correct authorized Sales Officer.
 - If the Sales Officer cannot accept the warm transfer, book the correct appointment before ending the call.
+- Treat the appointment as the protected fallback—not the automatic first destination for a ready lead.
 - Never skip mandatory consent, eligibility, payment, safety, or compliance requirements.
 - Resolve future calls, tasks, or appointments made obsolete by the advancement.
 
@@ -71,7 +72,7 @@ Booking Agents create, confirm, and reschedule appointments for Sales Officers, 
 
 ### Must hand off
 
-- close actions outside Booking Agent authority → Sales Officer;
+- close actions outside Booking Agent authority → initiate warm transfer to Sales Officer; if not accepted, book appointment;
 - payment or registration exception → Onboarding Coordinator;
 - post-sale service need → Support Officer;
 - compliance, safety, complaint, or authority exception → Team Manager.
