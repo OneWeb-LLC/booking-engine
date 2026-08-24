@@ -12,7 +12,7 @@ Owns campaigns, attribution, workflow enrollment, queue supply, cadence, suppres
 
 **Mission:** Convert inbound interest into a qualified live conversation, appointment, or defined next action.
 
-Owns inbound response, Zero Friction, minimum intake, qualification, routing, warm transfers, booking, missed-call recovery, activation recovery, and booking recovery.
+Owns inbound response, Zero Friction, minimum intake, qualification, routing, initiating warm transfers, booking, missed-call recovery, activation recovery, and booking recovery.
 
 The Booking Agent is the front-line operator and momentum manager of the Booking Engine—not merely a scheduler. A client may authorize the Booking Agent to complete defined Expedited closes. Anything outside that authority must be handed to the appropriate Sales Officer.
 
@@ -20,7 +20,7 @@ The Booking Agent is the front-line operator and momentum manager of the Booking
 
 **Mission:** Convert qualified interest into a customer commitment.
 
-Owns consultation, discovery, fit, presentation, objection handling, conversion, and active sales follow-up.
+Owns accepting and receiving qualified warm transfers, consultation, discovery, fit, presentation, objection handling, conversion, and active sales follow-up.
 
 Client aliases may include Sales Representative, Admissions Officer, Enrollment Advisor, Comfort Advisor, Account Executive, or Closer.
 
