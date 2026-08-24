@@ -23,7 +23,7 @@ A failed, stalled, or invalid transition is restored to the strongest valid next
    - Onboarding;
    - Reactivation.
 4. Preserve every valid step already completed.
-5. Identify the strongest valid destination: Standard, Assisted, Expedited, or valid exit.
+5. Identify the strongest valid destination: Standard, Expedited, or valid exit.
 6. Select the correct execution object:
    - exact time → Appointment;
    - personal responsibility → Assigned Task;
