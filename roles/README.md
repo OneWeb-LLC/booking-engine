@@ -1,37 +1,29 @@
 # Roles
 
-Choose the function you are performing. Roles describe authority and responsibility, not mandatory headcount; one person may perform more than one role.
+Roles are functions, not mandatory headcount. One person may perform multiple roles, but every responsibility must have a named owner.
 
-## Customer-facing roles
+## Core Booking Engine roles
 
-- [Booking Agent](booking-agent/README.md) — activates demand, assists booking, preserves momentum, and routes ready leads.
-- [Sales Officer](sales-officer/README.md) — converts qualified opportunities into commitments.
-- [Onboarding Coordinator](onboarding-coordinator/README.md) — turns commitments into activated customers.
-- [Support Officer](support-officer/README.md) — resolves post-sale needs and protects customer success.
+- [Campaign Manager](campaign-manager/README.md) — owns demand, Booking Engine management, queue health, coverage, quality, coaching, and performance.
+- [Booking Agent](booking-agent/README.md) — works leads through Live Calls, Assigned Tasks, and Call Queue to the strongest authorized outcome.
 
-## Management and system roles
+## Receiving role
 
-- [Campaign Manager](campaign-manager/README.md) — generates qualified demand and maintains eligible work supply.
-- [Team Manager](team-manager/README.md) — maintains coverage, quality, coaching, and accountability.
-- [Salesflow Administrator](salesflow-administrator/README.md) — maintains configuration, permissions, workflows, and data integrity.
+- [Sales Officer](sales-officer/README.md) — accepts warm transfers, conducts sales appointments, and closes.
 
-## Canonical work types
+## Connected downstream roles
 
-1. Appointments
-2. Live Calls
-3. Assigned Tasks
-4. Call Queue
+- [Onboarding Coordinator](onboarding-coordinator/README.md) — receives closed customers and completes activation.
+- [Support Officer](support-officer/README.md) — handles post-conversion needs and customer success.
 
-Not every role owns every work type. The role page lists only the assigned types and defines the expected work underneath each one.
+The downstream roles are documented because they receive Booking Engine handoffs; they are not part of the core Booking Engine promise.
 
-| Role | Work types |
-|---|---|
-| Booking Agent | Live Calls → Assigned Tasks → Call Queue |
-| Sales Officer | Appointments → Live Calls → Assigned Tasks |
-| Onboarding Coordinator | Appointments → Live Calls → Assigned Tasks |
-| Support Officer | Live Calls → Assigned Tasks → Call Queue |
-| Campaign Manager | Assigned Tasks |
-| Team Manager | Live Calls → Assigned Tasks |
-| Salesflow Administrator | Assigned Tasks |
+## Employee resources
 
-The role page tells you what you own and links directly to the applicable [Salesflow instruction](../salesflow/README.md). The instruction is the single employee source for the operating rule and exact execution.
+- [Role Procedures](procedures/README.md)
+- [Certification Training](roles/training/course-outline.md)
+- [Work Priorities](../work-priorities/README.md)
+
+## Maintainer function
+
+Snapshot configuration and technical maintenance belong to the [Snapshot Maintainer](../snapshot/administration/maintainer-role.md), not to a frontline operational role.

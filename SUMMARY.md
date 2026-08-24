@@ -2,65 +2,46 @@
 
 - [Home](README.md)
 
-## Start Here
+## Methodology
 
 - [Booking Engine Methodology](methodology/README.md)
-- [Customer Journey and Path Tiers](methodology/customer-journey.md)
-- [Four Work Priorities](methodology/work-priorities.md)
-- [Role Directory](roles/README.md)
+- [Handoffs](methodology/handoffs.md)
+- [Recovery System](methodology/recoveries/README.md)
+
+## Customer Journey
+
+- [Customer Journey and Operating Paths](customer-journey/README.md)
 
 ## Roles
 
+- [Role Directory](roles/README.md)
+- [Campaign Manager](roles/campaign-manager/README.md)
 - [Booking Agent](roles/booking-agent/README.md)
 - [Sales Officer](roles/sales-officer/README.md)
-- [Onboarding Coordinator](roles/onboarding-coordinator/README.md)
-- [Support Officer](roles/support-officer/README.md)
-- [Campaign Manager](roles/campaign-manager/README.md)
-- [Team Manager](roles/team-manager/README.md)
-- [Salesflow Administrator](roles/salesflow-administrator/README.md)
+- [Connected: Onboarding Coordinator](roles/onboarding-coordinator/README.md)
+- [Connected: Support Officer](roles/support-officer/README.md)
+- [Role Procedures](roles/procedures/README.md)
+- [Certification Training](roles/roles/training/course-outline.md)
 
-## Salesflow Instructions
+## Work Priorities
 
-- [Instruction Directory](salesflow/instructions/README.md)
-- [Start Your Shift](salesflow/instructions/daily/start-shift.md)
-- [Manage the Conversations Inbox](salesflow/instructions/conversations/manage-inbox.md)
-- [Book, Confirm, or Reschedule an Appointment](salesflow/instructions/appointments/book-appointment.md)
-- [Conduct and Complete a Sales Appointment](salesflow/instructions/appointments/manage-appointment.md)
-- [Answer an Inbound Call](salesflow/instructions/live-calls/answer-inbound-call.md)
-- [Handle a Zero Friction Call](salesflow/instructions/live-calls/handle-zero-friction.md)
-- [Warm-Transfer a Live Call](salesflow/instructions/live-calls/warm-transfer.md)
-- [Work Assigned Tasks](salesflow/instructions/assigned-tasks/work-assigned-tasks.md)
-- [Work the Call Queue](salesflow/instructions/call-queue/work-call-queue.md)
-- [Update an Opportunity](salesflow/instructions/opportunities/update-opportunity.md)
-- [Document a Call](salesflow/instructions/notes-and-dispositions/document-call.md)
-- [Add a Meaningful Note](salesflow/instructions/notes-and-dispositions/add-meaningful-note.md)
-- [Execute a Recovery](salesflow/instructions/recoveries/execute-recovery.md)
+- [Work Priorities](work-priorities/README.md)
+- [Call Types](work-priorities/call-types.md)
 
-## Recoveries
+## Snapshot
 
-- [Recovery System](recoveries/README.md)
-- [Activation Recovery](recoveries/activation.md)
-- [Booking Recovery](recoveries/booking.md)
-- [Appointment Recovery](recoveries/appointment.md)
-- [Conversion Recovery](recoveries/conversion.md)
-- [Payment and Onboarding Recovery](recoveries/payment-and-onboarding.md)
-- [Reactivation](recoveries/reactivation.md)
-
-## Training
-
-- [Certification Course](training/course-outline.md)
-
-## Administration
-
-- [Salesflow Administration](salesflow/administration/README.md)
-- [Knowledge Center Delivery](salesflow/administration/knowledge-center.md)
-- [Workflow Specifications](salesflow/administration/workflow-specifications.md)
-- [Client Profile](templates/client-profile.yaml)
-- [Reserved Snapshot Section](snapshot/README.md)
+- [Snapshot](snapshot/README.md)
+- [Snapshot Administration](snapshot/administration/README.md)
+- [Workflow Specifications](snapshot/administration/workflow-specifications.md)
+- [Knowledge Center Delivery](snapshot/administration/knowledge-center.md)
+- [Snapshot Maintainer](snapshot/administration/maintainer-role.md)
+- [Client Profile](snapshot/snapshot/templates/client-profile.yaml)
 
 ## Governance
 
+- [Governance](governance/README.md)
 - [Living Wiki Architecture](governance/WIKI-ARCHITECTURE.md)
-- [AI Maintenance Rules](governance/AI-MAINTENANCE.md)
+- [AI Maintenance](governance/AI-MAINTENANCE.md)
 - [UI Verification](governance/UI-VERIFICATION.md)
-- [Maintainer References](references/README.md)
+- [Documentation Standard](governance/documentation-standard.md)
+- [Maintainer References](governance/references/README.md)

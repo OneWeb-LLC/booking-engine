@@ -44,10 +44,10 @@ An opportunity is not onboarded merely because Sales marked it Won. Required pay
 
 | Responsibility | Salesflow instruction |
 |---|---|
-| Complete owned onboarding work | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
-| Maintain customer state | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
-| Preserve onboarding context | [Add a meaningful note](../../salesflow/instructions/notes-and-dispositions/add-meaningful-note.md) |
-| Restore payment or activation | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Complete owned onboarding work | [Work Assigned Tasks](../procedures/assigned-tasks/work-assigned-tasks.md) |
+| Maintain customer state | [Update an opportunity](../procedures/opportunities/update-opportunity.md) |
+| Preserve onboarding context | [Add a meaningful note](../procedures/notes-and-dispositions/add-meaningful-note.md) |
+| Restore payment or activation | [Execute a Recovery](../procedures/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

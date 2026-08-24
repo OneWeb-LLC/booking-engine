@@ -2,50 +2,57 @@
 
 ## Mission
 
-Generate qualified demand and maintain enough eligible work for the Booking Engine without creating collisions, flooding, or invalid outreach.
+Generate qualified demand and maintain the performance, coverage, quality, and accountability of the Booking Engine.
+
+The Campaign Manager combines the former campaign-management and team-management functions. A larger client may delegate coaching or supervision, but the responsibility remains here unless the client profile explicitly assigns it elsewhere.
 
 ## Daily operating cycle
 
-1. Review valid lead volume and source attribution.
-2. Review speed-to-lead and Capture failures.
-3. Review Call Queue depth in productive hours.
-4. Review workflow errors, duplicate suppression, and cadence health.
-5. Review path performance from Campaign through Close.
-6. Restore eligible supply before the queue becomes empty.
+1. Review qualified lead volume, source attribution, and campaign performance.
+2. Review speed-to-lead, Capture failures, and workflow health.
+3. Review Call Queue depth, pacing, and productive hours.
+4. Confirm Booking Agent coverage, availability, and warm-transfer coverage.
+5. Review overdue Assigned Tasks and unaccepted handoffs.
+6. Review exceptions, complaints, compliance risks, and suppression failures.
+7. Sample calls and documentation for quality.
+8. Coach the system behavior causing the result and verify the correction.
 
 ## Core responsibilities
 
-- campaign targeting, offer, and source tracking;
+- campaign targeting, offer, creative coordination, and source tracking;
 - Capture integrity and workflow enrollment;
 - Zero Friction eligibility and timing;
-- Call Queue supply and pacing;
-- suppression, consent, DND, and attempt limits;
-- Recovery and reactivation inventory;
-- attribution through Close.
+- Call Queue supply, pacing, retry logic, and reactivation inventory;
+- staffing coverage, service levels, quality assurance, and coaching;
+- escalation ownership and cross-role coordination;
+- consent, DND, suppression, collision prevention, and attempt limits;
+- conversion visibility and revenue attribution through Close.
 
 ## Guardrails
 
 - Do not measure success by raw lead count alone.
 - Do not flood the Call Queue beyond team capacity.
-- Do not reactivate contacts who have active appointments, live conversations, owned callbacks, terminal outcomes, or conflicting workflows.
-- If the queue is empty, restore valid supply; do not blame agents for lack of work.
+- Do not reactivate contacts with active appointments, live conversations, owned commitments, terminal outcomes, or conflicting workflows.
+- If the queue is empty, restore valid supply; do not blame agents for unavailable work.
+- Coach the missed customer transition, not merely the activity number.
 
 ## Responsibility map
 
 | Responsibility | Reference |
 |---|---|
-| Maintain customer state | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
-| Restore eligible demand | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
-| Supply pooled outreach | [Work the Call Queue](../../salesflow/instructions/call-queue/work-call-queue.md) |
-| Control activation | [Workflow specifications](../../salesflow/administration/workflow-specifications.md) |
-| Monitor installed behavior | [Snapshot reservation](../../snapshot/README.md) |
+| Maintain work priorities | [Work Priorities](../../work-priorities/README.md) |
+| Review employee execution | [Role Procedures](../procedures/README.md) |
+| Restore eligible demand | [Execute a Recovery](../procedures/recoveries/execute-recovery.md) |
+| Control activation | [Workflow Specifications](../../snapshot/administration/workflow-specifications.md) |
+| Verify installed behavior | [Snapshot](../../snapshot/README.md) |
 
 ## Scorecard
 
-- qualified captured leads;
-- cost per qualified opportunity;
-- speed-to-lead eligibility;
-- queue depth and utilization;
-- contact, booking, held-appointment, Close, and revenue by source;
-- collision and suppression failures;
-- Recovery and reactivation yield.
+- qualified captured leads and cost per qualified opportunity;
+- speed-to-lead and meaningful-conversation rate;
+- queue depth, utilization, and collision prevention;
+- booking, held-appointment, Close, and revenue by source;
+- live-call acceptance, task aging, and handoff acceptance;
+- call quality and documentation compliance;
+- Recovery and reactivation yield;
+- coaching corrections completed and verified.

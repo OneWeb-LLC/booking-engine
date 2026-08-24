@@ -1,25 +1,81 @@
 # Booking Engine Methodology
 
-The methodology is the platform-independent operating system for service businesses. It defines why the system works and what must remain true regardless of software, client, industry, or Snapshot configuration.
+## Definition
 
-## Core model
+The Salesflow Booking Engine is the coordinated system that begins when a lead is submitted and converts that lead into a valid sales appointment.
 
-- [Booking Engine operating framework](booking-engine.md)
-- [Customer Journey and Path Tiers](customer-journey.md)
-- [Work Priorities](work-priorities.md)
-- [Role Model and Ownership](role-model.md)
+It combines communication, automation, people, appointments, tasks, pipelines, reporting, and recovery workflows to move the lead through Capture and the appointment-producing portion of Convert. The Booking Engine ends when the appointment is validly booked and responsibility is handed to the client's closing team.
+
+Salesflow may also create and manage the upstream Campaign phase through its ad manager and campaign services. That makes Salesflow capable of supporting Campaign, Capture, and Convert, but Campaign remains an optional upstream service rather than part of the Booking Engine's core boundary. Close remains the client's responsibility.
+
+## Four-layer architecture
+
+### 1. Customer Journey
+
+Defines the broader phases—Campaign, Capture, Convert, and Close—while the Booking Engine specifically owns Capture through the booked-appointment milestone inside Convert.
+
+### 2. Roles and Handoffs
+
+Defines who owns each stage, what authority they have, and how responsibility transfers.
+
+### 3. Work Priorities
+
+Defines the user's daily operating order:
+
+1. Appointments
+2. Live Calls
+3. Assigned Tasks
+4. Call Queue
+
+### 4. Recoveries
+
+Defines what Salesflow and the team do when a required transition does not progress.
+
+## Three operating paths
+
+1. **Standard Path:** the lead follows the client's configured journey through the normal combination of automation and human effort.
+2. **Expedited Path:** the lead skips one or more normally expected, skippable steps and advances to a later valid step.
+3. **Recovery Path:** Salesflow and the team restore progress after a transition fails, stalls, or becomes invalid.
+
+The paths classify how a customer is moving; they are not a best-to-worst score. Expedited is defined by a valid skipped step, not by speed or human involvement. Recovery surrounds the journey and returns the customer to the strongest valid path.
+
+## Two decision systems
+
+The **Work Priority** tells a user what to handle next: Appointments → Live Calls → Assigned Tasks → Call Queue.
+
+The **Advancement Rule** tells the user how far to move the customer already being handled: continue Standard, Expedite to the furthest valid stage when a step can be validly skipped, or enter Recovery.
+
+Appointments remain the highest scheduled obligation. Inside an active Booking Call, the agent should not schedule an unnecessary future appointment when the customer can responsibly advance now. Close immediately when the Booking Agent is authorized. If the agent is not authorized, initiate a warm transfer to an authorized Sales Officer. Use the correct appointment as the protected fallback when an immediate close or accepted transfer is unavailable.
+
+## Operating principles
+
+- Preserve live momentum.
+- Honor scheduled commitments.
+- Use the Standard Path by default.
+- Expedite when readiness permits.
+- Recover when progress breaks.
+- Never leave ownership ambiguous.
+- Use the correct Salesflow object for the work.
+- Every interaction must create clarity.
+- Every broken transition must enter a named recovery.
+- Activity is not success; customer movement is success.
+
+## Generic by configuration
+
+The framework uses universal functional roles and phases. Clients may add, repeat, or rename milestones without changing the universal journey. For example, the Convert phase may contain one appointment or a sequence of discovery and consultation appointments.
+
+Clients may also change display names without changing responsibilities. For example, a Sales Officer may be called an Admissions Officer, Comfort Advisor, Account Executive, or Enrollment Advisor.
+
+Booking Agent remains a universal role because it is native to the Booking Engine methodology.
+
+## Methodology sections
+
+- [Customer Journey](../customer-journey/README.md)
+- [Operating Paths](../customer-journey/README.md#three-operating-paths)
+- [Work Priorities](../work-priorities/README.md)
+- [Call Types](../work-priorities/call-types.md)
+- [Roles](../roles/README.md)
 - [Handoffs](handoffs.md)
-- [Call Taxonomy](call-taxonomy.md)
-- [Documentation Model](documentation-model.md)
-- [Management System](management-system.md)
-- [Recovery System](../recoveries/README.md)
-
-## Boundary
-
-Methodology pages may define outcomes, authority, priority, and decision rules. They must not depend on a button name, screen location, custom field, or workflow implementation.
-
-Use:
-
-- [Roles](../roles/README.md) for who owns the work;
-- [Salesflow Instructions](../salesflow/README.md) for the outcome standard and exact execution;
-- [Snapshot](../snapshot/README.md) for the future audited installable configuration.
+- [Recoveries](recoveries/README.md)
+- [Snapshot](../snapshot/README.md)
+- [Governance](../governance/WIKI-ARCHITECTURE.md)

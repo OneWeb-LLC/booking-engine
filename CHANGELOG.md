@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0 — 2026-08-24
+
+- Reduced the repository to six top-level operating sections: Methodology, Customer Journey, Roles, Work Priorities, Snapshot, and Governance.
+- Folded Team Manager responsibilities into Campaign Manager and removed Team Manager as a universal role.
+- Demoted Salesflow Administrator into the Snapshot Maintainer function.
+- Moved Recoveries under Methodology; procedures and training under Roles; administration and client templates under Snapshot; references and documentation templates under Governance.
+- Clarified callback classification and replaced active path-tier terminology with operating-path terminology.
+- Separated core Booking Engine roles, the receiving Sales Officer, and connected downstream roles.
+
 ## 0.9.2 — 2026-08-24
 
 - Separated appointment administration from sales-appointment ownership.

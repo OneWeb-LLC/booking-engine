@@ -61,12 +61,12 @@ For a No Show, the Sales Officer records the truthful appointment status and doc
 
 | Responsibility | Salesflow instruction |
 |---|---|
-| Conduct scheduled sales work | [Manage an appointment](../../salesflow/instructions/appointments/manage-appointment.md) |
-| Accept live opportunities | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
-| Maintain pipeline truth | [Update an opportunity](../../salesflow/instructions/opportunities/update-opportunity.md) |
-| Complete owned follow-up | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
-| Record outcomes | [Document a call](../../salesflow/instructions/notes-and-dispositions/document-call.md) |
-| Restore unresolved decisions | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Conduct scheduled sales work | [Manage an appointment](../procedures/appointments/manage-appointment.md) |
+| Accept live opportunities | [Warm-transfer a live call](../procedures/live-calls/warm-transfer.md) |
+| Maintain pipeline truth | [Update an opportunity](../procedures/opportunities/update-opportunity.md) |
+| Complete owned follow-up | [Work Assigned Tasks](../procedures/assigned-tasks/work-assigned-tasks.md) |
+| Record outcomes | [Document a call](../procedures/notes-and-dispositions/document-call.md) |
+| Restore unresolved decisions | [Execute a Recovery](../procedures/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

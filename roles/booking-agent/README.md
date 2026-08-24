@@ -58,7 +58,7 @@ Booking Agents create, confirm, reschedule, and restore appointments for Sales O
 - Preserve valid progress; never send a booked lead backward into Booking Recovery.
 - Use the Recovery matching the failed objective.
 - Create a pooled Call Queue action unless a specific agent accepts ownership.
-- Schedule exact-time callbacks as appointments, not ordinary tasks.
+- Create a callback appointment only when the customer and owner mutually agree to an exact date and time. Put ordinary callbacks and retries in the Call Queue.
 
 ## Authority
 
@@ -75,7 +75,7 @@ Booking Agents create, confirm, reschedule, and restore appointments for Sales O
 - close actions outside Booking Agent authority → initiate warm transfer to Sales Officer; if not accepted, book appointment;
 - payment or registration exception → Onboarding Coordinator;
 - post-sale service need → Support Officer;
-- compliance, safety, complaint, or authority exception → Team Manager.
+- compliance, safety, complaint, or authority exception → Campaign Manager.
 
 ## Completion standard
 
@@ -91,15 +91,15 @@ Before leaving a record:
 
 | Responsibility | Salesflow instruction |
 |---|---|
-| Start prepared | [Start your shift](../../salesflow/instructions/daily/start-shift.md) |
-| Answer inbound demand | [Answer an inbound call](../../salesflow/instructions/live-calls/answer-inbound-call.md) |
-| Activate fresh leads | [Handle a Zero Friction call](../../salesflow/instructions/live-calls/handle-zero-friction.md) |
-| Secure appointments | [Book an appointment](../../salesflow/instructions/appointments/book-appointment.md) |
-| Route ready leads | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
-| Complete personal work | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
-| Work pooled calls | [Work the Call Queue](../../salesflow/instructions/call-queue/work-call-queue.md) |
-| Record outcomes | [Document a call](../../salesflow/instructions/notes-and-dispositions/document-call.md) |
-| Restore progress | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Start prepared | [Start your shift](../procedures/daily/start-shift.md) |
+| Answer inbound demand | [Answer an inbound call](../procedures/live-calls/answer-inbound-call.md) |
+| Activate fresh leads | [Handle a Zero Friction call](../procedures/live-calls/handle-zero-friction.md) |
+| Secure appointments | [Book an appointment](../procedures/appointments/book-appointment.md) |
+| Route ready leads | [Warm-transfer a live call](../procedures/live-calls/warm-transfer.md) |
+| Complete personal work | [Work Assigned Tasks](../procedures/assigned-tasks/work-assigned-tasks.md) |
+| Work pooled calls | [Work the Call Queue](../procedures/call-queue/work-call-queue.md) |
+| Record outcomes | [Document a call](../procedures/notes-and-dispositions/document-call.md) |
+| Restore progress | [Execute a Recovery](../procedures/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

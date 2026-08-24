@@ -33,7 +33,7 @@ Resolve post-conversion needs, protect customer success, and route valid commerc
 
 ## Path behavior
 
-Customer Journey path tiers primarily govern conversion work. Support uses the same operating discipline: resolve the request through the Standard Path, expedite only when a normally expected step can be validly skipped, and recover broken service commitments.
+Customer Journey operating paths primarily govern conversion work. Support uses the same operating discipline: resolve the request through the Standard Path, expedite only when a normally expected step can be validly skipped, and recover broken service commitments.
 
 ## Guardrail
 
@@ -43,11 +43,11 @@ Do not transfer a customer merely to remove the issue from your workspace. Respo
 
 | Responsibility | Salesflow instruction |
 |---|---|
-| Handle inbound needs | [Answer an inbound call](../../salesflow/instructions/live-calls/answer-inbound-call.md) |
-| Hand off accepted issues | [Warm-transfer a live call](../../salesflow/instructions/live-calls/warm-transfer.md) |
-| Complete owned resolution | [Work Assigned Tasks](../../salesflow/instructions/assigned-tasks/work-assigned-tasks.md) |
-| Preserve service context | [Add a meaningful note](../../salesflow/instructions/notes-and-dispositions/add-meaningful-note.md) |
-| Restore broken service | [Execute a Recovery](../../salesflow/instructions/recoveries/execute-recovery.md) |
+| Handle inbound needs | [Answer an inbound call](../procedures/live-calls/answer-inbound-call.md) |
+| Hand off accepted issues | [Warm-transfer a live call](../procedures/live-calls/warm-transfer.md) |
+| Complete owned resolution | [Work Assigned Tasks](../procedures/assigned-tasks/work-assigned-tasks.md) |
+| Preserve service context | [Add a meaningful note](../procedures/notes-and-dispositions/add-meaningful-note.md) |
+| Restore broken service | [Execute a Recovery](../procedures/recoveries/execute-recovery.md) |
 
 ## Scorecard
 

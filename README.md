@@ -28,14 +28,12 @@ During a Booking Call, a ready lead is closed immediately when the Booking Agent
 
 ## Living wiki hierarchy
 
-1. **[Methodology](methodology/README.md)** — why the Booking Engine works and the universal rules.
-2. **[Roles](roles/README.md)** — who owns each responsibility and the role's authority.
-3. **[Salesflow Instructions](salesflow/README.md)** — the complete, click-by-click procedure for performing the work.
-4. **[Recoveries](recoveries/README.md)** — how failed or stalled customer transitions are restored.
-5. **[Training](training/course-outline.md)** — how employees learn and certify.
-6. **[Administration](salesflow/administration/README.md)** — how Salesflow is configured and maintained.
-7. **[Snapshot](snapshot/README.md)** — the reserved specification for the future installable configuration.
-8. **[Governance](governance/AI-MAINTENANCE.md)** — how the living wiki remains trustworthy.
+1. **[Methodology](methodology/README.md)** — the universal Booking Engine doctrine.
+2. **[Customer Journey](customer-journey/README.md)** — phases, milestones, boundaries, and operating paths.
+3. **[Roles](roles/README.md)** — core, receiving, and downstream ownership plus employee procedures and training.
+4. **[Work Priorities](work-priorities/README.md)** — canonical work types, role assignment, call types, callbacks, and interruption rules.
+5. **[Snapshot](snapshot/README.md)** — installable configuration, administration, templates, verification, and change control.
+6. **[Governance](governance/README.md)** — documentation integrity, source maintenance, and architecture.
 
 Employees begin with their role and follow one direct link to the relevant Salesflow instruction. Each instruction combines the operating standard with a Staff Notebook-style walkthrough: where to go, what to click, what to enter, what to verify, and what happens next.
 
@@ -64,4 +62,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.9.2` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.10.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
