@@ -3,7 +3,7 @@
 - **Salesflow dependency:** Core / Client configuration / Booking Engine configuration
 - **Role:**
 - **Journey phase:** Campaign / Capture / Convert / Close
-- **Path tier:** Standard / Assisted / Expedited / Recovery
+- **Path tier:** Standard / Expedited / Recovery
 - **Work Priority:** Appointments / Live Calls / Assigned Tasks / Call Queue
 - **Last verified:** YYYY-MM-DD
 - **Instruction owner:**
