@@ -31,20 +31,19 @@ Defines the user's daily operating order:
 
 Defines what Salesflow and the team do when a required transition does not progress.
 
-## Four path tiers
+## Three operating paths
 
-1. **Standard Path:** the lead follows the client's configured journey without exceptional intervention.
-2. **Assisted Path:** the team provides additional help to complete the expected transition.
-3. **Expedited Path:** readiness or capability allows the lead to advance beyond one or more expected steps.
-4. **Recovery Path:** Salesflow and the team restore progress after a transition fails, stalls, or becomes invalid.
+1. **Standard Path:** the lead follows the client's configured journey through the normal combination of automation and human effort.
+2. **Expedited Path:** the lead skips one or more normally expected, skippable steps and advances to a later valid step.
+3. **Recovery Path:** Salesflow and the team restore progress after a transition fails, stalls, or becomes invalid.
 
-The tiers classify how a customer is moving; they are not a best-to-worst score. Expedited may emerge from Standard or Assisted. Recovery surrounds the whole journey and returns the customer to the strongest valid path.
+The paths classify how a customer is moving; they are not a best-to-worst score. Expedited is defined by a valid skipped step, not by speed or human involvement. Recovery surrounds the journey and returns the customer to the strongest valid path.
 
 ## Two decision systems
 
 The **Work Priority** tells a user what to handle next: Appointments → Live Calls → Assigned Tasks → Call Queue.
 
-The **Advancement Rule** tells the user how far to move the customer already being handled: continue Standard, provide Assistance, Expedite to the furthest valid stage, or enter Recovery.
+The **Advancement Rule** tells the user how far to move the customer already being handled: continue Standard, Expedite to the furthest valid stage when a step can be validly skipped, or enter Recovery.
 
 Appointments remain the highest scheduled obligation. Inside an active interaction, the user should not schedule an unnecessary future conversation when the customer can responsibly advance now.
 
@@ -53,7 +52,6 @@ Appointments remain the highest scheduled obligation. Inside an active interacti
 - Preserve live momentum.
 - Honor scheduled commitments.
 - Use the Standard Path by default.
-- Assist when necessary.
 - Expedite when readiness permits.
 - Recover when progress breaks.
 - Never leave ownership ambiguous.
