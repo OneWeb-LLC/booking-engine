@@ -13,7 +13,7 @@ Trigger: approved new inbound lead.
 7. Attempt Zero Friction when eligible.
 8. Recheck state immediately before the agent bridge and cancel any obsolete objective.
 9. On failure, preserve valid progress and enter the Recovery associated with the failed objective.
-10. On connection, continue through Standard, Assisted, or Expedited according to readiness.
+10. On connection, continue through Standard or Expedited according to the current valid path.
 
 ## WF-02 Missed Inbound Call
 
@@ -58,7 +58,7 @@ Trigger: a lead event, state change, workflow enrollment, or pending human conne
 2. Validate all required and conditional milestone rules.
 3. Select the strongest valid objective.
 4. Maintain exactly one active outbound call objective.
-5. Route ordinary progress through Standard, additional help through Assisted, valid jumps through Expedited, and failed transitions through Recovery.
+5. Route configured automation and normal human effort through Standard, valid skipped steps through Expedited, and failed transitions through Recovery.
 6. Before execution or an agent bridge, recheck the state and replace obsolete work.
 7. After advancement, suppress superseded calls, tasks, workflows, reminders, and appointments.
 8. Record the prior state, new state, path movement, reason, and owner.
