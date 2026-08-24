@@ -28,9 +28,10 @@ Salesflow should validate consent, calling hours, DND, contact eligibility, and 
    - already booked → confirm, prepare, or protect the appointment;
    - ready to advance → use Expedited movement;
    - already closed → protect onboarding and stop sales activity.
-7. Complete the strongest valid action.
-8. Select the definitive disposition and update the opportunity.
-9. Resolve any work made obsolete by the result.
+7. For a ready lead, close when authorized; otherwise initiate a warm transfer; if the transfer is not accepted, book the correct appointment.
+8. Complete the strongest valid action.
+9. Select the definitive disposition and update the opportunity.
+10. Resolve any work made obsolete by the result.
 
 ## If something goes wrong
 
