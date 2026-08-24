@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.6.1
+  version: 0.7.0
 
 snapshot:
   mode: core_salesflow
@@ -25,12 +25,18 @@ roles:
     display_name: Sales Officer
   onboarding_coordinator:
     display_name: Onboarding Coordinator
-  support_representative:
-    display_name: Support Representative
+  support_officer:
+    display_name: Support Officer
   team_manager:
     display_name: Team Manager
   system_administrator:
     display_name: Salesflow Administrator
+
+booking_engine:
+  starts_at: lead_submitted
+  ends_at: appointment_booked
+  campaign_management_included: false
+  close_owner: client
 
 customer_journey:
   phases:
