@@ -11,6 +11,17 @@ Resolve post-conversion needs, protect customer success, and route valid commerc
 3. Review due and overdue Assigned Tasks.
 4. Review escalations and aging unresolved cases.
 
+## Assigned work types
+
+1. **Live Calls**
+   - support calls routed directly to Support;
+   - support calls transferred or handed off by Booking Agents;
+   - accepted live escalations.
+2. **Assigned Tasks**
+   - personally owned resolutions, investigations, customer updates, and escalations.
+3. **Call Queue**
+   - pooled support follow-up and recovery calls when enabled by the client.
+
 ## Core work
 
 - answer inbound support requests;
