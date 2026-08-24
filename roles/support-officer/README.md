@@ -22,7 +22,7 @@ Resolve post-conversion needs, protect customer success, and route valid commerc
 
 ## Path behavior
 
-Customer Journey path tiers primarily govern conversion work. Support uses the same operating discipline: resolve the standard request, assist when extra help is required, expedite urgent valid issues, and recover broken service commitments.
+Customer Journey path tiers primarily govern conversion work. Support uses the same operating discipline: resolve the request through the Standard Path, expedite only when a normally expected step can be validly skipped, and recover broken service commitments.
 
 ## Guardrail
 
