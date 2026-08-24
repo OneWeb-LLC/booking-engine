@@ -7,6 +7,10 @@
 - **Salesflow dependency:** Core capability
 - **UI verification:** Draft — client verification required
 
+## When this procedure applies
+
+Use a warm transfer when the lead is ready to advance but the Booking Agent is not authorized to complete the close. Do not schedule an unnecessary appointment before attempting an available authorized Sales Officer.
+
 ## Ownership rule
 
 The Booking Agent initiates the warm transfer and retains ownership until the Sales Officer answers, receives the handoff context, and accepts the connection. The Sales Officer receives or accepts the warm transfer.
