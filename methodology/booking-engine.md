@@ -45,7 +45,7 @@ The **Work Priority** tells a user what to handle next: Appointments → Live Ca
 
 The **Advancement Rule** tells the user how far to move the customer already being handled: continue Standard, Expedite to the furthest valid stage when a step can be validly skipped, or enter Recovery.
 
-Appointments remain the highest scheduled obligation. Inside an active interaction, the user should not schedule an unnecessary future conversation when the customer can responsibly advance now.
+Appointments remain the highest scheduled obligation. Inside an active Booking Call, the agent should not schedule an unnecessary future appointment when the customer can responsibly advance now. Close immediately when the Booking Agent is authorized. If the agent is not authorized, initiate a warm transfer to an authorized Sales Officer. Use the correct appointment as the protected fallback when an immediate close or accepted transfer is unavailable.
 
 ## Operating principles
 
