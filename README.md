@@ -11,12 +11,11 @@ The framework has four connected operating layers:
 3. **Work Priorities** — what users work on next.
 4. **Recoveries** — what happens when a required transition fails.
 
-The Customer Journey uses four operating tiers:
+The Customer Journey uses three operating paths:
 
-1. **Standard Path** — follow the client's configured journey.
-2. **Assisted Path** — provide additional help to complete the expected transition.
-3. **Expedited Path** — advance a ready lead beyond one or more expected steps.
-4. **Recovery Path** — restore progress after a transition fails, stalls, or becomes invalid.
+1. **Standard Path** — follow the client's configured journey through automation and normal human effort.
+2. **Expedited Path** — skip one or more normally expected, skippable steps and advance to a later valid step.
+3. **Recovery Path** — restore progress after a transition fails, stalls, or becomes invalid.
 
 Its invariant operating order is:
 
@@ -65,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.7.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.8.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
