@@ -9,7 +9,7 @@ The universal employee operating order is:
 
 Only active work or an appointment inside its preparation window interrupts lower-priority work. An active appointment or call is never interrupted by new work.
 
-Work Priority determines what the user handles next. The Journey Advancement Rule determines how far the active customer should move: continue Standard, Assist when necessary, Expedite when readiness permits, or enter Recovery.
+Work Priority determines what the user handles next. The Journey Advancement Rule determines how far the active customer should move: continue Standard, Expedite when a step can be validly skipped, or enter Recovery.
 
 ## Interruption rules
 
