@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.9.1
+  version: 0.9.2
 
 snapshot:
   mode: core_salesflow
@@ -106,6 +106,21 @@ work_priorities:
       - Assigned Tasks
 
 appointments:
+  ownership:
+    booking_agent:
+      - create
+      - confirm
+      - reschedule
+      - rebook_after_recovery
+    sales_officer:
+      - prepare
+      - conduct
+      - complete
+      - set_status
+      - document_sales_outcome
+    no_show_sequence:
+      - sales_officer_records_outcome
+      - booking_agent_restores_booking
   preparation_window_minutes: 10
   exact_time_callbacks_are_appointments: true
   types: []
