@@ -31,6 +31,14 @@ A handoff is complete only when:
 4. the prior owner confirms the transition;
 5. failure automatically enters the appropriate recovery.
 
+## Booking Call advancement
+
+For a ready lead, use the strongest valid destination in this order:
+
+1. Booking Agent closes when explicitly authorized.
+2. If not authorized, the Booking Agent initiates a warm transfer to an authorized Sales Officer.
+3. If the transfer is not accepted, the Booking Agent books the correct appointment before ending the call.
+
 ## Live handoff
 
 For sales warm transfers, the Booking Agent initiates the transfer and remains until the Sales Officer answers, receives the handoff context, and explicitly accepts the connection. The Sales Officer receives or accepts the transfer; the Sales Officer does not initiate the Booking Agent's handoff.
