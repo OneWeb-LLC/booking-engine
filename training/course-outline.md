@@ -8,7 +8,9 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 
 ### Module 1 — Customer Journey
 
-- Campaign → Capture → Convert → Close
+- broader Salesflow journey: Campaign → Capture → Convert → Close
+- Booking Engine boundary: submitted lead → Capture → booked appointment
+- optional Campaign management and client responsibility for Close
 - Standard, Assisted, Expedited, and Recovery Paths
 - required, conditional, and skippable milestones
 
@@ -49,7 +51,7 @@ After the core modules, assign the relevant role track:
 - Booking Agent;
 - Sales Officer;
 - Onboarding Coordinator;
-- Support Representative;
+- Support Officer;
 - Campaign Manager;
 - Team Manager;
 - Salesflow Administrator.
