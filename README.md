@@ -64,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.9.1` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.9.2` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
