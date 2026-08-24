@@ -22,16 +22,14 @@ Convert new interest into the strongest valid next step: a correctly protected a
 
 ## Standard Path
 
-- Protect appointments the lead booked through the configured journey.
-- Confirm purpose, time, location, and preparation requirements.
-- Do not restart the booking conversation when the appointment is already valid.
-
-## Assisted Path
-
+- Use the configured combination of automation and normal human effort.
+- Perform Lead Activation, Zero Friction, inbound response, minimum intake, qualification, and booking when applicable.
 - Identify the lead's service need and immediate obstacle.
 - Collect only the information required for the next step.
 - Help the lead choose and secure the correct appointment.
-- Confirm the booking before ending the interaction.
+- Protect appointments the lead already booked through the configured journey.
+- Confirm purpose, time, location, preparation requirements, and the completed booking before ending the interaction.
+- Do not restart the booking conversation when the appointment is already valid.
 
 ## Expedited Path
 
@@ -63,7 +61,7 @@ Convert new interest into the strongest valid next step: a correctly protected a
 
 - close actions outside Booking Agent authority → Sales Officer;
 - payment or registration exception → Onboarding Coordinator;
-- post-sale service need → Support Representative;
+- post-sale service need → Support Officer;
 - compliance, safety, complaint, or authority exception → Team Manager.
 
 ## Completion standard
