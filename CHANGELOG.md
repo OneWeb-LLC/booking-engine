@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0 — 2026-08-24
+
+- Renamed Support Representative to Support Officer globally.
+- Defined the Booking Engine boundary as submitted lead through valid booked appointment.
+- Clarified that Salesflow supports Capture and Convert by default and can also support Campaign through optional ad management.
+- Assigned Close to the client's Sales Officer or closing team.
+
 ## 0.6.1 — 2026-08-23
 
 - Made booking the correct appointment the mandatory default when a warm transfer fails.
