@@ -21,7 +21,7 @@
 - [Connected: Onboarding Coordinator](roles/onboarding-coordinator/README.md)
 - [Connected: Support Officer](roles/support-officer/README.md)
 - [Role Procedures](roles/procedures/README.md)
-- [Certification Training](roles/roles/training/course-outline.md)
+- [Certification Training](roles/training/course-outline.md)
 
 ## Work Priorities
 
@@ -35,7 +35,7 @@
 - [Workflow Specifications](snapshot/administration/workflow-specifications.md)
 - [Knowledge Center Delivery](snapshot/administration/knowledge-center.md)
 - [Snapshot Maintainer](snapshot/administration/maintainer-role.md)
-- [Client Profile](snapshot/snapshot/templates/client-profile.yaml)
+- [Client Profile](snapshot/templates/client-profile.yaml)
 
 ## Governance
 
