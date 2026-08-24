@@ -1,6 +1,6 @@
 # Salesflow Instruction: Book an Appointment
 
-- **Roles:** Booking Agent, Sales Officer, Onboarding Coordinator, Support Representative
+- **Roles:** Booking Agent, Sales Officer, Onboarding Coordinator, Support Officer
 - **Journey phase:** Convert or post-Close service
 - **Path tier:** Standard, Assisted, or Recovery
 - **Work Priority:** Active Live Call or Assigned Task
