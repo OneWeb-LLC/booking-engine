@@ -14,7 +14,7 @@ Owns campaigns, attribution, workflow enrollment, queue supply, cadence, suppres
 
 Owns inbound response, Zero Friction, minimum intake, qualification, routing, initiating warm transfers, booking, missed-call recovery, activation recovery, and booking recovery.
 
-The Booking Agent is the front-line operator and momentum manager of the Booking Engine—not merely a scheduler. A client may authorize the Booking Agent to complete defined Expedited closes. Anything outside that authority must be handed to the appropriate Sales Officer.
+The Booking Agent is the front-line operator and momentum manager of the Booking Engine—not merely a scheduler. During a Booking Call, the agent closes immediately when explicitly authorized. If not authorized, the agent initiates a warm transfer to an authorized Sales Officer. If the transfer is not accepted, the agent books the correct appointment before ending the call.
 
 ## Sales Officer
 
