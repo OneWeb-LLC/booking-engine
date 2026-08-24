@@ -23,8 +23,7 @@ Turn an accepted customer commitment into a fully activated customer with comple
 
 ## Path behavior
 
-- **Standard:** complete the configured onboarding sequence.
-- **Assisted:** help the customer complete a missing onboarding requirement.
+- **Standard:** complete the configured onboarding sequence, including normal human help with missing requirements.
 - **Expedited:** activate immediately when every mandatory requirement is satisfied.
 - **Recovery:** own Payment or Onboarding Recovery until completion or accepted escalation.
 
