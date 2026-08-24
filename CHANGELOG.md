@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.2 — 2026-08-24
+
+- Separated appointment administration from sales-appointment ownership.
+- Assigned booking, confirmation, rescheduling, and rebooking to Booking Agents.
+- Assigned preparation, execution, completion, status, and sales-outcome documentation to Sales Officers.
+- Assigned No Show documentation to the Sales Officer and rebooking recovery to the Booking Agent.
+
 ## 0.9.1 — 2026-08-24
 
 - Defined Booking Call advancement as authorized close, then warm transfer, then appointment fallback.
