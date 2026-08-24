@@ -38,7 +38,7 @@ Official external platform material is a maintainer reference only. Employee ins
 - [Salesflow administration](README.md)
 - [Workflow specifications](workflow-specifications.md)
 - [Reserved Booking Engine Snapshot section](../README.md)
-- [Client profile](../snapshot/templates/client-profile.yaml)
+- [Client profile](../templates/client-profile.yaml)
 - [Staff Notebook-style Salesflow instruction template](../../governance/templates/salesflow-instruction-template.md)
 - [AI maintenance rules](../../governance/AI-MAINTENANCE.md)
 
