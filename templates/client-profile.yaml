@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.8.1
+  version: 0.9.0
 
 snapshot:
   mode: core_salesflow
@@ -71,10 +71,35 @@ authority:
   failed_warm_transfer_action: book_appointment
 
 work_priorities:
-  - Appointments
-  - Live Calls
-  - Assigned Tasks
-  - Call Queue
+  canonical:
+    - Appointments
+    - Live Calls
+    - Assigned Tasks
+    - Call Queue
+  by_role:
+    booking_agent:
+      - Live Calls
+      - Assigned Tasks
+      - Call Queue
+    sales_officer:
+      - Appointments
+      - Live Calls
+      - Assigned Tasks
+    onboarding_coordinator:
+      - Appointments
+      - Live Calls
+      - Assigned Tasks
+    support_officer:
+      - Live Calls
+      - Assigned Tasks
+      - Call Queue
+    campaign_manager:
+      - Assigned Tasks
+    team_manager:
+      - Live Calls
+      - Assigned Tasks
+    system_administrator:
+      - Assigned Tasks
 
 appointments:
   preparation_window_minutes: 10
@@ -82,6 +107,20 @@ appointments:
   types: []
 
 live_calls:
+  expected_by_role:
+    booking_agent:
+      - inbound_sales
+      - inbound_admissions
+      - inbound_general_business
+      - initial_support_triage
+      - zero_friction
+    sales_officer:
+      - accepted_warm_transfers
+    onboarding_coordinator:
+      - accepted_onboarding_handoffs
+    support_officer:
+      - routed_support
+      - transferred_support
   inbound_enabled: true
   warm_transfer_enabled: true
   zero_friction_enabled: true
