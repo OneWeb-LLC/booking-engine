@@ -1,6 +1,6 @@
 wiki:
   title: Salesflow Booking Engine
-  version: 0.6.1
+  version: 0.8.0
   entrypoint: SUMMARY.md
   home: README.md
   format: markdown
