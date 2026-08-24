@@ -1,11 +1,15 @@
 # Salesflow Instruction: Prepare, Complete, and Update an Appointment
 
-- **Primary sales role:** Sales Officer
-- **Other appointment-owning roles:** Onboarding Coordinator or Support Officer only when the client configures appointments for those functions
+- **Role:** Sales Officer
+- **Scope:** Sales appointments
 - **Work Priority:** Appointments
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
 - **UI verification:** Draft — client verification required
+
+## Ownership boundary
+
+This procedure belongs to the Sales Officer. Booking Agents may create, confirm, reschedule, or restore the appointment, but they do not prepare for, conduct, complete, or document the sales outcome.
 
 ## Outcome
 
@@ -34,7 +38,7 @@ The appointment status, customer outcome, opportunity, and next action must agre
 
 ## If something goes wrong
 
-- **No Show:** set the accurate status and enter Appointment Recovery immediately.
+- **No Show:** the Sales Officer sets the accurate appointment status and documents the outcome. Salesflow then assigns Appointment Recovery to the Booking Agent for rebooking.
 - **Rescheduled:** create or confirm the replacement appointment and ensure the old reminders will not conflict.
 - **Cancelled:** record the reason and choose the correct Recovery or valid exit.
 - **Customer ready earlier:** use Expedited movement and resolve the appointment if it becomes obsolete.
