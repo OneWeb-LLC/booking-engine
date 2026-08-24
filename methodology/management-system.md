@@ -71,7 +71,6 @@
 ### Path performance
 
 - Standard Path completion rate;
-- Assisted Path entry and return-to-Standard rate;
 - Expedited Path entry, close, Buy Now, and warm-transfer rates;
 - Recovery entry and restoration rate;
 - time and touches from Capture to Close by path;
