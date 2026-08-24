@@ -2,7 +2,7 @@
 
 - **Role:** Booking Agent
 - **Journey phase:** Capture or Convert
-- **Path tier:** Standard, Assisted, Expedited, or Recovery according to current state
+- **Path tier:** Standard, Expedited, or Recovery according to current state
 - **Work Priority:** Live Calls
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Client-configured Zero Friction routing
@@ -24,7 +24,7 @@ Salesflow should validate consent, calling hours, DND, contact eligibility, and 
 4. Listen to the whisper or connection context when configured.
 5. When connected, introduce yourself and state the relevant reason for calling.
 6. Determine the current objective:
-   - not booked → Assist the next valid Convert step;
+   - not booked → complete the next valid Standard Convert step;
    - already booked → confirm, prepare, or protect the appointment;
    - ready to advance → use Expedited movement;
    - already closed → protect onboarding and stop sales activity.
