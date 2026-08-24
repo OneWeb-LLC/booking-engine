@@ -7,7 +7,7 @@ Choose the function you are performing. Roles describe authority and responsibil
 - [Booking Agent](booking-agent/README.md) — activates demand, assists booking, preserves momentum, and routes ready leads.
 - [Sales Officer](sales-officer/README.md) — converts qualified opportunities into commitments.
 - [Onboarding Coordinator](onboarding-coordinator/README.md) — turns commitments into activated customers.
-- [Support Representative](support-representative/README.md) — resolves post-sale needs and protects customer success.
+- [Support Officer](support-officer/README.md) — resolves post-sale needs and protects customer success.
 
 ## Management and system roles
 
