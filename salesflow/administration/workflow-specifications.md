@@ -28,7 +28,9 @@ Trigger: approved new inbound lead.
 2. Create human confirmation call only when required by client configuration.
 3. Suppress redundant booking calls during the protected appointment window, but allow a configured appointment-activation or Expedited objective.
 4. On completion, trigger disposition-based next steps.
-5. On no-show, enter Appointment Recovery using the no-show branch.
+5. On no-show, require the Sales Officer to record the truthful appointment status and sales outcome.
+6. Create Appointment Recovery for the Booking Agent to restore the booking.
+7. Suppress obsolete reminders while preserving the original appointment context.
 
 ## WF-04 Assigned Callback
 
