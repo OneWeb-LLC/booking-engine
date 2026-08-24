@@ -8,17 +8,29 @@ Convert new interest into the strongest valid next step: a correctly protected a
 
 1. Sign in to Salesflow and set the correct availability state.
 2. Confirm the microphone, headset, and inbound calling are working.
-3. Review today's appointments and preparation windows.
-4. Open Assigned Tasks and identify due or overdue commitments.
-5. Confirm which Sales Officers and specialists are available for warm transfers.
-6. When higher-priority work is clear, open the Call Queue.
+3. Open Assigned Tasks and identify due or overdue commitments.
+4. Confirm which Sales Officers and specialists are available for warm transfers.
+5. When no Live Call or due Assigned Task requires attention, open the Call Queue.
 
-## Daily operating order
+## Assigned work types
 
-1. **Appointments:** honor active scheduled commitments.
-2. **Live Calls:** answer inbound and Zero Friction connections.
-3. **Assigned Tasks:** complete due personal responsibilities.
-4. **Call Queue:** work the next eligible pooled record.
+1. **Live Calls**
+   - inbound sales and admissions calls;
+   - general-business inbound calls;
+   - initial support calls and routing;
+   - Zero Friction connections;
+   - live calls requiring qualification, booking, or a warm transfer.
+2. **Assigned Tasks**
+   - personally owned follow-up;
+   - promised actions without a mutually scheduled appointment;
+   - booking confirmations or corrections assigned to the agent.
+3. **Call Queue**
+   - pooled New Lead Activation;
+   - missed-call follow-up;
+   - booking and appointment recovery calls assigned to the Booking team;
+   - approved reactivation and retry calls.
+
+Booking Agents create, confirm, and reschedule appointments for Sales Officers, but they do not conduct the sales appointments and therefore do not carry Appointments as an assigned work type.
 
 ## Standard Path
 
