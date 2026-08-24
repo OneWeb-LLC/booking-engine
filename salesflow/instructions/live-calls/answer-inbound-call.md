@@ -1,6 +1,7 @@
 # Salesflow Instruction: Answer an Inbound Call
 
-- **Roles:** Booking Agent, Sales Officer, Support Representative
+- **Primary role:** Booking Agent
+- **Receiving specialist:** Support Officer when routed or handed off
 - **Work Priority:** Live Calls
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
