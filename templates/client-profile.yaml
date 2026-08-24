@@ -1,6 +1,6 @@
 framework:
   name: Salesflow Booking Engine
-  version: 0.9.0
+  version: 0.9.1
 
 snapshot:
   mode: core_salesflow
@@ -68,6 +68,10 @@ authority:
   specialist_handoffs: []
   warm_transfer_initiator: booking_agent
   warm_transfer_receiver: sales_officer
+  booking_call_advancement_order:
+    - authorized_booking_agent_close
+    - accepted_sales_officer_warm_transfer
+    - booked_appointment
   failed_warm_transfer_action: book_appointment
 
 work_priorities:
