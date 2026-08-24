@@ -11,6 +11,20 @@ Convert qualified service opportunities into informed customer commitments while
 3. Review due Assigned Tasks and active decision commitments.
 4. Confirm offer, pricing, payment, eligibility, and escalation authority.
 
+## Assigned work types
+
+1. **Appointments**
+   - scheduled consultations, assessments, demonstrations, or other closing appointments;
+   - appointment preparation, execution, disposition, and sales follow-through.
+2. **Live Calls**
+   - qualified warm transfers initiated by Booking Agents;
+   - other explicitly routed real-time sales opportunities approved by the client.
+3. **Assigned Tasks**
+   - personally owned sales follow-up;
+   - promised actions, documents, proposals, and decision commitments.
+
+Sales Officers do not ordinarily answer the general inbound Booking Engine line or work the Booking Agent Call Queue.
+
 ## Core work
 
 - receive and explicitly accept qualified warm transfers initiated by Booking Agents;
