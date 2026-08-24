@@ -2,18 +2,27 @@
 
 ## Universal journey
 
-The Salesflow Booking Engine is built for service businesses and uses four fixed phases:
+The broader Salesflow customer journey for service businesses uses four fixed phases:
 
 1. **Campaign** — generate qualified demand.
 2. **Capture** — identify and record the lead, source, consent, and intent.
 3. **Convert** — create a qualified sales opportunity through contact, qualification, booking, handoffs, and appointments.
 4. **Close** — secure commitment, complete the configured commercial action, and initiate onboarding.
 
-The Booking Engine ends with an accepted onboarding handoff. Onboarding and Support continue the broader Customer Journey.
+## Booking Engine boundary
+
+The Booking Engine begins when a lead is submitted into Salesflow and the Capture phase starts. Its terminal objective is a valid booked appointment inside Convert. At that point, responsibility transfers to the client's Sales Officer or closing team.
+
+The client is responsible for closing the lead. Salesflow may support the upstream Campaign phase through its ad manager and campaign services when the client chooses that service. Therefore:
+
+- **Booking Engine core:** Capture → booked appointment within Convert;
+- **Salesflow with client-supplied leads:** Capture + Convert;
+- **Salesflow with campaign management:** Campaign + Capture + Convert;
+- **Client closing team:** the remaining Convert activity, when applicable, and Close.
 
 ## Configurable journey depth
 
-The phases remain universal; milestones inside them are configurable. Most service-business variation belongs inside Convert.
+The phases remain universal; milestones inside them are configurable. Most service-business variation belongs inside Convert. The Booking Engine's configured milestones end at the booked-appointment milestone; later sales milestones belong to the client's closing process.
 
 A simple journey may use one consultation appointment. A longer journey may use discovery, assessment, demonstration, consultation, approval, or multiple appointments before Close.
 
@@ -70,6 +79,6 @@ Whenever a lead changes paths or jumps ahead, Salesflow must recheck the current
 |---|---|---|---|
 | Campaign | Qualified demand enters Salesflow | Campaign Manager | Activation Recovery |
 | Capture | Valid, consented, attributable lead record | Campaign Manager/System | Activation Recovery |
-| Convert | Qualified appointment, live handoff, or sales-ready opportunity | Booking Agent/Sales Officer | Booking or Appointment Recovery |
-| Close | Commitment and configured commercial action completed | Sales Officer | Conversion or Payment Recovery |
-| Onboarding handoff | Context and responsibility accepted | Onboarding Coordinator | Onboarding Recovery |
+| Convert — Booking Engine | Valid booked appointment and accepted handoff to the closing team | Booking Agent | Booking or Appointment Recovery |
+| Convert — Client sales process | Conduct the appointment and advance the qualified opportunity | Sales Officer | Client sales follow-up |
+| Close | Commitment and configured commercial action completed | Sales Officer | Client conversion or payment process |
