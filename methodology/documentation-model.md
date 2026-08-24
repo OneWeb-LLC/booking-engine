@@ -31,7 +31,7 @@ Clients may extend this list, but synonyms should be consolidated to preserve re
 |---|---|
 | Disposition | Definitive outcome of the call |
 | Pipeline stage | Current lifecycle position |
-| Path tier | Standard, Assisted, Expedited, or Recovery movement |
+| Path tier | Standard, Expedited, or Recovery movement |
 | Appointment | Exact scheduled commitment |
 | Assigned Task | Personal responsibility |
 | Call Brief | Current purpose for pooled/live call work |
