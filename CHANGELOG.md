@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.1 — 2026-08-24
+
+- Assigned warm-transfer initiation to the Booking Agent.
+- Assigned warm-transfer receipt and acceptance to the Sales Officer.
+- Confirmed that the Booking Agent retains ownership and books the appointment when the transfer is not accepted.
+
 ## 0.8.0 — 2026-08-24
 
 - Removed Assisted as a separate journey path.
