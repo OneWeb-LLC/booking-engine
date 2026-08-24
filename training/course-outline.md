@@ -33,7 +33,8 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 
 - inbound calls
 - Zero Friction
-- warm transfers
+- warm-transfer ownership: Booking Agent initiates; Sales Officer receives and accepts
+- failed warm transfer → Booking Agent books the correct appointment
 - failed transfer → book the correct appointment before ending the call
 - one active call objective
 
