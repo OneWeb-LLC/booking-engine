@@ -20,8 +20,11 @@ The caller reaches the correct next outcome without repeating information or los
 5. Identify the reason for the call and the desired outcome.
 6. Review current appointments, opportunity status, and recent context before creating new work.
 7. Resolve within your authority when possible.
-8. If the caller is a qualified ready lead, enter Expedited movement: use an approved direct conversion method or warm-transfer to a Sales Officer.
-9. If a future exact-time conversation is required, book the appointment before disconnecting.
+8. If the caller is a qualified ready lead, follow the Booking Call advancement rule:
+   - authorized → close now using the approved action;
+   - not authorized → initiate a warm transfer to an authorized Sales Officer;
+   - transfer not accepted → book the correct appointment before disconnecting.
+9. If the lead is not ready to close or transfer but the next valid step is a sales appointment, book the appointment before disconnecting.
 10. If another role is required, complete an accepted warm handoff.
 11. End the call only after confirming the next step.
 12. Select the disposition and update Salesflow immediately.
