@@ -6,7 +6,7 @@ A handoff transfers both context and responsibility. Sending a message or changi
 
 ## Standard handoff chain
 
-Campaign Manager → Booking Agent → Sales Officer → Onboarding Coordinator → Support Representative
+Campaign Manager → Booking Agent → Sales Officer → Onboarding Coordinator → Support Officer
 
 ## Required handoff packet
 
@@ -33,9 +33,9 @@ A handoff is complete only when:
 
 ## Live handoff
 
-For warm transfers, the transferring person remains until the recipient answers, context is introduced, and the connection is confirmed.
+For sales warm transfers, the Booking Agent initiates the transfer and remains until the Sales Officer answers, receives the handoff context, and explicitly accepts the connection. The Sales Officer receives or accepts the transfer; the Sales Officer does not initiate the Booking Agent's handoff.
 
-If the intended recipient cannot accept the warm transfer, the transferring person retains ownership and books the customer into the correct appointment before ending the call. A task, note, Call Queue entry, or unconfirmed promise to call later does not satisfy the failed-transfer requirement.
+If the Sales Officer cannot accept the warm transfer, the Booking Agent retains ownership and books the customer into the correct appointment before ending the call. A task, note, Call Queue entry, or unconfirmed promise to call later does not satisfy the failed-transfer requirement.
 
 ## Asynchronous handoff
 
