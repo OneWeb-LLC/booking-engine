@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — 2026-08-24
+
+- Removed Assisted as a separate journey path.
+- Standard now includes configured automation and normal human effort, including Lead Activation and Zero Friction.
+- Defined Expedited strictly as skipping one or more normally expected, skippable steps.
+- Standardized the operating model as Standard, Expedited, and Recovery.
+
 ## 0.7.0 — 2026-08-24
 
 - Renamed Support Representative to Support Officer globally.
@@ -46,7 +53,7 @@
 
 ## 0.3.0 — 2026-08-23
 
-- Replaced the single Golden Path with four operating tiers: Standard, Assisted, Expedited, and Recovery.
+- Replaced the single Golden Path with four operating tiers at that version; this model was superseded by the three-path model in 0.8.0.
 - Standardized the universal service-business journey as Campaign → Capture → Convert → Close.
 - Made the Convert phase configurable for one or multiple appointments and other client-specific milestones.
 - Defined Expedited movement as any valid jump forward in the funnel, independent of method or channel.
