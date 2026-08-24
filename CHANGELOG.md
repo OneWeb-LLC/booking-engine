@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.1 — 2026-08-24
+
+- Defined Booking Call advancement as authorized close, then warm transfer, then appointment fallback.
+- Preserved appointments as the guaranteed fallback rather than the automatic first destination for ready leads.
+- Required Booking Agents without closing authority to initiate a warm transfer to an authorized Sales Officer.
+
 ## 0.9.0 — 2026-08-24
 
 - Preserved Appointments, Live Calls, Assigned Tasks, and Call Queue as the four canonical work types.
