@@ -21,7 +21,7 @@ The downstream roles are documented because they receive Booking Engine handoffs
 ## Employee resources
 
 - [Role Procedures](procedures/README.md)
-- [Certification Training](roles/training/course-outline.md)
+- [Certification Training](training/course-outline.md)
 - [Work Priorities](../work-priorities/README.md)
 
 ## Maintainer function
