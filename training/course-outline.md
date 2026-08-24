@@ -28,6 +28,7 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 
 - contact versus opportunity
 - appointment versus task
+- appointment ownership: Booking Agent books/confirms/reschedules; Sales Officer prepares/conducts/completes
 - disposition versus note
 - Call Brief versus historical context
 
@@ -39,6 +40,7 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 - warm-transfer ownership: Booking Agent initiates; Sales Officer receives and accepts
 - failed warm transfer → Booking Agent books the correct appointment
 - failed transfer → book the correct appointment before ending the call
+- no-show ownership: Sales Officer records outcome; Booking Agent restores booking
 - one active call objective
 
 ### Module 5 — Documentation and Recovery
