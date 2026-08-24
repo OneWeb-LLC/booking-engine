@@ -1,6 +1,8 @@
 # Salesflow Booking Engine
 
-The **Salesflow Booking Engine** is the universal operating framework for service businesses that moves customer interest through **Campaign → Capture → Convert → Close**, then hands the customer to onboarding and support.
+The **Salesflow Booking Engine** is the universal operating framework for service businesses that begins when a lead is submitted and moves that lead through **Capture → booked appointment**. Its objective is to create a valid sales appointment and hand responsibility to the client's closing team.
+
+Salesflow can also support the upstream **Campaign** phase through its ad manager and campaign tools. When the client chooses that service, Salesflow supports **Campaign → Capture → Convert**; when the client supplies its own leads, the Booking Engine operates across **Capture → Convert**. **Close remains the client's responsibility.**
 
 The framework has four connected operating layers:
 
@@ -63,4 +65,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.6.1` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.7.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
