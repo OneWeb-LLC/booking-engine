@@ -27,7 +27,7 @@ Sales Officers do not ordinarily answer the general inbound Booking Engine line 
 
 ## Core work
 
-- receive and explicitly accept qualified warm transfers initiated by Booking Agents;
+- receive and explicitly accept qualified warm transfers initiated when the Booking Agent lacks closing authority;
 - conduct scheduled sales appointments;
 - perform discovery, fit confirmation, presentation, and objection handling;
 - close when the customer is ready;
