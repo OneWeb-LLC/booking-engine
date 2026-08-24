@@ -22,8 +22,7 @@ Convert qualified service opportunities into informed customer commitments while
 
 ## Path behavior
 
-- **Standard:** conduct the configured sales appointment sequence and complete Close.
-- **Assisted:** resolve the obstacle preventing the expected sales transition.
+- **Standard:** conduct the configured sales appointment sequence, resolve ordinary obstacles, and complete Close.
 - **Expedited:** accept a ready lead, validate mandatory requirements, and close without unnecessary future steps.
 - **Recovery:** document the unresolved decision and create the correct owned follow-up, appointment, or pooled recovery.
 
