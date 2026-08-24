@@ -32,19 +32,15 @@ Each milestone must declare whether it is:
 - **conditional:** required only when its condition applies; or
 - **skippable:** may be bypassed when the Expedited rule is satisfied.
 
-## Four path tiers
+## Three operating paths
 
 ### Tier 1 — Standard Path
 
-The lead follows the client's configured journey without exceptional intervention. The Standard Path may include automation, Booking Agents, appointments, Sales Officers, payments, and human handoffs. Standard does not mean self-service or human-free.
-
-### Tier 2 — Assisted Path
-
-The lead needs additional help to complete the expected transition. The assistance should return the lead to the configured Standard Path whenever practical.
+The lead follows the client's configured journey through the normal combination of automation and human effort. Standard may include Lead Activation, Zero Friction, inbound calls, qualification, appointment booking, appointments, Sales Officers, payments, and human handoffs. Standard does not mean automated, self-service, or human-free.
 
 Examples include answering pre-booking questions, completing missing information, helping select an appointment, and removing an ordinary obstacle.
 
-### Tier 3 — Expedited Path
+### Path 2 — Expedited Path
 
 The lead demonstrates readiness or capability to advance beyond one or more expected funnel steps. Expedited is defined by the valid jump forward—not by a specific method, channel, or role.
 
@@ -57,17 +53,15 @@ Examples include:
 - converting before an upcoming appointment; or
 - legitimately skipping a later Convert milestone.
 
-Expedited movement may emerge from either Standard or Assisted.
+### Path 3 — Recovery Path
 
-### Tier 4 — Recovery Path
+A required transition has failed, stalled, or become invalid. The appropriate Recovery restores the lead to the strongest valid next step. Recovery may rejoin Standard or Expedited, or end in a valid exit state.
 
-A required transition has failed, stalled, or become invalid. The appropriate Recovery restores the lead to the strongest valid next step. Recovery may rejoin Standard, Assisted, or Expedited, or end in a valid exit state.
-
-Recovery is taught as Tier 4 for operating clarity, but architecturally it surrounds the entire journey.
+Recovery is taught as one of the three operating paths, but architecturally it surrounds the entire journey.
 
 ## Advancement rule
 
-Move every lead through the Standard Path by default. Assist when necessary. Expedite when readiness permits. Recover when progress breaks.
+Move every lead through the Standard Path by default. Expedite when a normally expected step can be validly skipped. Recover when progress breaks.
 
 Expedited movement must advance to the furthest **valid** stage. It may never bypass applicable consent, legal, compliance, eligibility, payment, safety, or mandatory service requirements.
 
