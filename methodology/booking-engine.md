@@ -2,15 +2,17 @@
 
 ## Definition
 
-The Salesflow Booking Engine is the coordinated system that converts customer interest into a committed, onboarded, and supported customer.
+The Salesflow Booking Engine is the coordinated system that begins when a lead is submitted and converts that lead into a valid sales appointment.
 
-It combines campaigns, communication, automation, people, appointments, tasks, pipelines, payments, onboarding, reporting, and recovery workflows into one controlled Customer Journey.
+It combines communication, automation, people, appointments, tasks, pipelines, reporting, and recovery workflows to move the lead through Capture and the appointment-producing portion of Convert. The Booking Engine ends when the appointment is validly booked and responsibility is handed to the client's closing team.
+
+Salesflow may also create and manage the upstream Campaign phase through its ad manager and campaign services. That makes Salesflow capable of supporting Campaign, Capture, and Convert, but Campaign remains an optional upstream service rather than part of the Booking Engine's core boundary. Close remains the client's responsibility.
 
 ## Four-layer architecture
 
 ### 1. Customer Journey
 
-Defines the universal phases—Campaign, Capture, Convert, and Close—the client's configured milestones, and the strongest valid next destination.
+Defines the broader phases—Campaign, Capture, Convert, and Close—while the Booking Engine specifically owns Capture through the booked-appointment milestone inside Convert.
 
 ### 2. Roles and Handoffs
 
