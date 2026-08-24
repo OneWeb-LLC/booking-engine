@@ -13,7 +13,7 @@ Convert qualified service opportunities into informed customer commitments while
 
 ## Core work
 
-- accept qualified warm transfers;
+- receive and explicitly accept qualified warm transfers initiated by Booking Agents;
 - conduct scheduled sales appointments;
 - perform discovery, fit confirmation, presentation, and objection handling;
 - close when the customer is ready;
