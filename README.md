@@ -24,7 +24,7 @@ Its four canonical work types are listed in priority order:
 3. **Assigned Tasks** — complete due and overdue personal responsibilities.
 4. **Call Queue** — continuously work pooled follow-up when higher-priority work is clear.
 
-Not every role owns every work type. Each role page lists its assigned subset and the specific expected work underneath it. The industries, scripts, pipelines, and service-level targets may change. The work methodology does not.
+During a Booking Call, a ready lead is closed immediately when the Booking Agent is authorized; otherwise the agent initiates a warm transfer, with a booked appointment as the protected fallback. Not every role owns every work type. Each role page lists its assigned subset and the specific expected work underneath it. The industries, scripts, pipelines, and service-level targets may change. The work methodology does not.
 
 ## Living wiki hierarchy
 
@@ -64,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.9.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.9.1` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
