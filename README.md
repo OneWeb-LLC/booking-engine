@@ -17,14 +17,14 @@ The Customer Journey uses three operating paths:
 2. **Expedited Path** — skip one or more normally expected, skippable steps and advance to a later valid step.
 3. **Recovery Path** — restore progress after a transition fails, stalls, or becomes invalid.
 
-Its invariant operating order is:
+Its four canonical work types are listed in priority order:
 
 1. **Appointments** — honor scheduled commitments.
 2. **Live Calls** — answer inbound calls, warm transfers, and Zero Friction connections.
 3. **Assigned Tasks** — complete due and overdue personal responsibilities.
 4. **Call Queue** — continuously work pooled follow-up when higher-priority work is clear.
 
-The industries, scripts, pipelines, and service-level targets may change. The work methodology does not.
+Not every role owns every work type. Each role page lists its assigned subset and the specific expected work underneath it. The industries, scripts, pipelines, and service-level targets may change. The work methodology does not.
 
 ## Living wiki hierarchy
 
@@ -43,11 +43,11 @@ Employees begin with their role and follow one direct link to the relevant Sales
 
 When a user logs in:
 
-1. Prepare for and complete appointments due now.
-2. Accept live calls when available.
-3. Complete assigned tasks that are due or overdue.
-4. Work the next eligible Call Queue record.
-5. Pause lower-priority work when higher-priority work becomes active.
+1. Load the work types assigned to the user's role.
+2. Begin the highest-priority assigned type.
+3. Complete active customer work before accepting new work.
+4. Move to the next assigned type when higher-priority work is clear.
+5. Never enter a work area that is not assigned to the role.
 
 If the Call Queue falls below capacity, the campaign manager—not the agent—owns restoring eligible work.
 
@@ -64,4 +64,4 @@ The content is written in Markdown so it can be delivered through:
 
 ## Status
 
-Version `0.8.1` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+Version `0.9.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
