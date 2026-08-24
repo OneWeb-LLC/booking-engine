@@ -42,7 +42,7 @@ Examples include answering pre-booking questions, completing missing information
 
 ### Path 2 — Expedited Path
 
-The lead demonstrates readiness or capability to advance beyond one or more expected funnel steps. Expedited is defined by the valid jump forward—not by a specific method, channel, or role.
+Expedited occurs when the lead skips one or more normally expected, skippable steps in the configured Standard Journey and advances to a later valid step. It is defined by the valid skipped step—not by speed, effort, channel, or role.
 
 Examples include:
 
