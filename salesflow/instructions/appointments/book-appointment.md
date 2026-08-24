@@ -2,7 +2,7 @@
 
 - **Roles:** Booking Agent, Sales Officer, Onboarding Coordinator, Support Officer
 - **Journey phase:** Convert or post-Close service
-- **Path tier:** Standard, Assisted, or Recovery
+- **Path tier:** Standard, Expedited, or Recovery
 - **Work Priority:** Active Live Call or Assigned Task
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
