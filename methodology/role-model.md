@@ -32,7 +32,7 @@ The Sales Officer title represents conversion authority, not people-management r
 
 Owns payment coordination, agreements, documents, registration, provisioning, onboarding recovery, and the handoff to Support.
 
-## Support Representative
+## Support Officer
 
 **Mission:** Resolve post-conversion needs and protect customer success.
 
