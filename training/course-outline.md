@@ -20,6 +20,8 @@ The course teaches the operating system. The embedded Knowledge Center provides 
 - Live Calls
 - Assigned Tasks
 - Call Queue
+- role-specific assignment of the four canonical work types
+- expected calls, appointments, tasks, and queued work underneath each role
 - interruption and availability rules
 
 ### Module 3 — Salesflow Records
