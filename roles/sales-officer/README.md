@@ -15,7 +15,7 @@ Convert qualified service opportunities into informed customer commitments while
 
 1. **Appointments**
    - scheduled consultations, assessments, demonstrations, or other closing appointments;
-   - appointment preparation, execution, disposition, and sales follow-through.
+   - appointment preparation, execution, appointment-status disposition, sales-outcome documentation, and sales follow-through.
 2. **Live Calls**
    - qualified warm transfers initiated by Booking Agents;
    - other explicitly routed real-time sales opportunities approved by the client.
@@ -28,7 +28,7 @@ Sales Officers do not ordinarily answer the general inbound Booking Engine line 
 ## Core work
 
 - receive and explicitly accept qualified warm transfers initiated when the Booking Agent lacks closing authority;
-- conduct scheduled sales appointments;
+- prepare for, conduct, complete, and document scheduled sales appointments;
 - perform discovery, fit confirmation, presentation, and objection handling;
 - close when the customer is ready;
 - create exact next commitments when the decision cannot be completed;
@@ -43,6 +43,10 @@ Sales Officers do not ordinarily answer the general inbound Booking Engine line 
 ## Authority
 
 The Sales Officer owns closing authority defined in the client profile. The role may not invent pricing, make unapproved guarantees, bypass required eligibility, or commit another department without an accepted handoff.
+
+## Appointment ownership
+
+For a No Show, the Sales Officer records the truthful appointment status and documents the sales outcome. Appointment Recovery then transfers to the Booking Agent for rebooking unless the client explicitly assigns another recovery owner.
 
 ## Completion standard
 
