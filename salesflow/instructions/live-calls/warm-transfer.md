@@ -1,10 +1,15 @@
 # Salesflow Instruction: Warm-Transfer a Live Call
 
-- **Roles:** Booking Agent, Sales Officer, Support Representative
+- **Initiating role:** Booking Agent
+- **Receiving role:** Sales Officer
 - **Work Priority:** Live Calls
 - **Last logic review:** 2026-08-23
 - **Salesflow dependency:** Core capability
 - **UI verification:** Draft — client verification required
+
+## Ownership rule
+
+The Booking Agent initiates the warm transfer and retains ownership until the Sales Officer answers, receives the handoff context, and accepts the connection. The Sales Officer receives or accepts the warm transfer.
 
 ## Outcome
 
@@ -48,7 +53,7 @@ The customer and receiving person are connected with the correct context, and re
 8. Record the client-approved failed-transfer disposition and the booked appointment outcome.
 9. Retain ownership until the appointment is saved and confirmed.
 
-A failed warm transfer does not become generic Call Queue work. The default next step is a booked appointment with the intended receiving role.
+A failed warm transfer does not become generic Call Queue work. The Booking Agent retains ownership and books an appointment with the intended Sales Officer before ending the call.
 
 ## Common mistakes
 
