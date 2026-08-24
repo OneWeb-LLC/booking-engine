@@ -11,7 +11,7 @@ The broader Salesflow customer journey for service businesses uses four fixed ph
 
 ## Booking Engine boundary
 
-The Booking Engine begins when a lead is submitted into Salesflow and the Capture phase starts. Its terminal objective is a valid booked appointment inside Convert. At that point, responsibility transfers to the client's Sales Officer or closing team.
+The Booking Engine begins when a lead is submitted into Salesflow and the Capture phase starts. Its guaranteed terminal objective is a valid booked appointment inside Convert. During a Booking Call, a ready lead may advance farther through an authorized close or an accepted warm transfer. When neither is available, the Booking Agent protects progress by booking the correct appointment.
 
 The client is responsible for closing the lead. Salesflow may support the upstream Campaign phase through its ad manager and campaign services when the client chooses that service. Therefore:
 
@@ -49,7 +49,7 @@ Examples include:
 - completing a configured Buy Now option;
 - requesting an immediate conversation with a Sales Officer;
 - accepting a warm transfer instead of booking;
-- closing within the Booking Agent's authorized limits;
+- closing within the Booking Agent's explicitly authorized limits;
 - converting before an upcoming appointment; or
 - legitimately skipping a later Convert milestone.
 
@@ -64,6 +64,8 @@ Recovery is taught as one of the three operating paths, but architecturally it s
 Move every lead through the Standard Path by default. Expedite when a normally expected step can be validly skipped. Recover when progress breaks.
 
 Expedited movement must advance to the furthest **valid** stage. It may never bypass applicable consent, legal, compliance, eligibility, payment, safety, or mandatory service requirements.
+
+Booking Call advancement follows this order for a ready lead: authorized Booking Agent close → accepted warm transfer to an authorized Sales Officer → booked appointment fallback.
 
 Whenever a lead changes paths or jumps ahead, Salesflow must recheck the current state, record the reason, assign the new objective, and suppress obsolete calls, tasks, workflows, and appointments.
 
