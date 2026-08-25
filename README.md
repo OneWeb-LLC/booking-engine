@@ -32,7 +32,7 @@ During a Booking Call, a ready lead is closed immediately when the Booking Agent
 2. **[Customer Journey](customer-journey/README.md)** — phases, milestones, boundaries, and operating paths.
 3. **[Roles](roles/README.md)** — core, receiving, and downstream ownership plus employee procedures and training.
 4. **[Work Priorities](work-priorities/README.md)** — canonical work types, role assignment, call types, callbacks, and interruption rules.
-5. **[Snapshot](snapshot/README.md)** — installable configuration, administration, templates, verification, and change control.
+5. **[Snapshot](snapshot/README.md)** — installable configuration, administration, templates, verification, change control, and explicitly marked pilots/reference architecture.
 6. **[Governance](governance/README.md)** — documentation integrity, source maintenance, and architecture.
 
 Employees begin with their role and follow one direct link to the relevant Salesflow instruction. Each instruction combines the operating standard with a Staff Notebook-style walkthrough: where to go, what to click, what to enter, what to verify, and what happens next.
@@ -49,6 +49,21 @@ When a user logs in:
 
 If the Call Queue falls below capacity, the campaign manager—not the agent—owns restoring eligible work.
 
+## Communications pilot
+
+The current GHI reference experiment is documented in [Snapshot → Communications Workstation Pilot](snapshot/communications-pilot.md).
+
+It tests:
+
+- **Yealink WH63 E2 UC** as the on-site headset standard;
+- **MicroSIP** as the first Windows SIP softphone candidate against HighLevel/Twilio SIP credentials;
+- headset-button answer/end without keyboard or mouse dependency;
+- physical **Yealink T34W** endpoints only where computer-off continuity is actually required;
+- future presence-aware paging/push-to-talk;
+- spoken appointment reminders through the headset, currently nicknamed **Remindly**.
+
+This is deliberately marked as a pilot. It must preserve Salesflow call logging, recordings, automation, attribution and customer-record integrity before it can become a supported Snapshot component.
+
 ## Delivery targets
 
 The content is written in Markdown so it can be delivered through:
@@ -63,3 +78,5 @@ The content is written in Markdown so it can be delivered through:
 ## Status
 
 Version `0.10.0` simplifies the living wiki into a role-first operating system, makes Salesflow procedures the single employee source of truth, reserves Snapshot documentation until the actual Snapshot can be audited, and requires a booked appointment when a warm transfer fails.
+
+Current communications work is intentionally stored as **pilot/reference architecture**, not as an already-installed universal Snapshot feature.
