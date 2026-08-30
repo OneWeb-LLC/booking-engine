@@ -53,6 +53,8 @@ If the Call Queue falls below capacity, the campaign manager—not the agent—o
 
 The current GHI reference experiment is documented in [Snapshot → Communications Workstation Pilot](snapshot/communications-pilot.md).
 
+The planned network layer is documented in [Snapshot → Managed Network Infrastructure](snapshot/managed-network-infrastructure.md).
+
 It tests:
 
 - **Yealink WH63 E2 UC** as the on-site headset standard;
