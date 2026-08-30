@@ -2,13 +2,17 @@
 
 ## Definition
 
-The Salesflow Booking Engine is the coordinated system that begins when a lead is submitted and converts that lead into a valid sales appointment.
+The Salesflow Booking Engine is the coordinated revenue system that turns attention into a completed commercial outcome. It understands the full lifecycle **Campaign → Capture → Convert → Close** and can be deployed across all or part of that lifecycle depending on client scope.
 
-It combines communication, automation, people, appointments, tasks, pipelines, reporting, and recovery workflows to move the lead through Capture and the appointment-producing portion of Convert. The Booking Engine ends when the appointment is validly booked and responsibility is handed to the client's closing team.
+It combines strategy, measurement, software, hardware/channels, automation, people, appointments, tasks, communications, reporting, training, closing, and recovery workflows. The system is intentionally broader than scheduling: a booking is one conversion milestone inside a complete revenue journey.
 
-Salesflow may also create and manage the upstream Campaign phase through its ad manager and campaign services. That makes Salesflow capable of supporting Campaign, Capture, and Convert, but Campaign remains an optional upstream service rather than part of the Booking Engine's core boundary. Close remains the client's responsibility.
+## Revenue system architecture
 
-## Four-layer architecture
+See [Revenue System Doctrine](revenue-system-doctrine.md) for the full 4×4 model: **Campaign / Capture / Convert / Close × Strategy & Measurement / Software / Hardware & Channels / Human Execution**.
+
+The operating methodology below remains the execution framework used inside that broader revenue system.
+
+## Four operating layers
 
 ### 1. Customer Journey
 
@@ -79,3 +83,8 @@ Booking Agent remains a universal role because it is native to the Booking Engin
 - [Recoveries](recoveries/README.md)
 - [Snapshot](../snapshot/README.md)
 - [Governance](../governance/WIKI-ARCHITECTURE.md)
+
+
+## Real-world validation
+
+The doctrine is being validated through the [Three-Company Revenue Engine Pilot Masterplan](../pilots/three-company-masterplan.md). Repeated needs discovered across the pilots should be promoted into core or configurable platform capabilities according to the productization rule in the doctrine.
