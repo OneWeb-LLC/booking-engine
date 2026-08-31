@@ -1,8 +1,8 @@
 # Salesflow Booking Engine
 
-The **Salesflow Booking Engine** is the universal operating framework for service businesses that begins when a lead is submitted and moves that lead through **Capture → booked appointment**. Its objective is to create a valid sales appointment and hand responsibility to the client's closing team.
+The **Salesflow Booking Engine** is the universal revenue operating framework for service businesses. It understands and coordinates the full lifecycle **Campaign → Capture → Convert → Close**, even when a specific client deploys only part of that lifecycle. Its purpose is to ensure that demand does not die between marketing, lead capture, contact, booking, show, close, payment, and handoff.
 
-Salesflow can also support the upstream **Campaign** phase through its ad manager and campaign tools. When the client chooses that service, Salesflow supports **Campaign → Capture → Convert**; when the client supplies its own leads, the Booking Engine operates across **Capture → Convert**. **Close remains the client's responsibility.**
+The system is defined through two dimensions: the **customer lifecycle** (Campaign, Capture, Convert, Close) and the **implementation stack** (Strategy & Measurement, Software, Hardware & Channels, Human Execution). This prevents the Booking Engine from being reduced to a calendar or automation package and makes the required operating system explicit.
 
 The framework has four connected operating layers:
 
@@ -28,12 +28,13 @@ During a Booking Call, a ready lead is closed immediately when the Booking Agent
 
 ## Living wiki hierarchy
 
-1. **[Methodology](methodology/README.md)** — the universal Booking Engine doctrine.
+1. **[Methodology](methodology/README.md)** — the universal Booking Engine doctrine, including the [Revenue System Architecture](methodology/revenue-system-doctrine.md).
 2. **[Customer Journey](customer-journey/README.md)** — phases, milestones, boundaries, and operating paths.
 3. **[Roles](roles/README.md)** — core, receiving, and downstream ownership plus employee procedures and training.
 4. **[Work Priorities](work-priorities/README.md)** — canonical work types, role assignment, call types, callbacks, and interruption rules.
 5. **[Snapshot](snapshot/README.md)** — installable configuration, administration, templates, verification, change control, and explicitly marked pilots/reference architecture.
 6. **[Governance](governance/README.md)** — documentation integrity, source maintenance, and architecture.
+7. **[Pilots](pilots/three-company-masterplan.md)** — phased real-world deployment across Gabriel Health Institute, Montessori Bilingual Academy, and Eola Masonic Lodge.
 
 Employees begin with their role and follow one direct link to the relevant Salesflow instruction. Each instruction combines the operating standard with a Staff Notebook-style walkthrough: where to go, what to click, what to enter, what to verify, and what happens next.
 
